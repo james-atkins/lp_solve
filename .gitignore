@@ -1,3 +1,5 @@
+build/
+
 # Prerequisites
 *.d
 
@@ -15,6 +17,7 @@
 # Precompiled Headers
 *.gch
 *.pch
+*.ipch
 
 # Libraries
 *.lib
