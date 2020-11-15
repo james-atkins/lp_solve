@@ -519,6 +519,26 @@ Change history:
   then it could happen that not the most optimal integer solution was found.
 - Updated/added scaling options to the lp_solve command line program
 
+08/06/17 version 5.5.2.6 (temp release)
+- Modified generating MPS file with some new options:
+  - MPSLINDO: Write semi-continious variables in different order as required by LINDO
+  - MPSFREEFULLPRECISION: Write numbers with more precision in free MPS format
+    xli_MPS is modified to handle these new options.
+- Reading an lp file with a semi-cont variable failed if the minimum is larger than the maximum.
+  This is allowed because if the semi-cont attribute on the variables in which case a 0 is also a valid solution.
+- Some models with degeneraracy returned a "Unacceptable accuracy found" error.
+
+30/07/17 version 5.5.2.7 (temp release)
+- Lower/Upper objective sensitivity was sometimes not given for some variables. Was ok when scaling was disabled.
+
+xx/xx/xx version 5.5.2.8
+- Modified PHP driver for PHP 5.4
+- In some cases an accuracy error was given by check_solution which was not always true
+
+13/03/20 version 5.5.2.9
+- When a model is infeasible it can happen that the returned solution is not initialised and returning NAN values
+
+
 We are thrilled to hear from you and your experiences with this new version. The good and the bad.
 Also we would be pleased to hear about your experiences with the different BFPs on your models.
 

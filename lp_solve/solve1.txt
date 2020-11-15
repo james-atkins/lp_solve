@@ -1,0 +1,1635 @@
+\lp_solve\miplib3\10teams.mps 
+Timeout
+\lp_solve\miplib3\air03.mps 
+
+Value of objective function: 340160.00000000
+\lp_solve\miplib3\air04.mps 
+Suboptimal solution
+
+Value of objective function: 56363.00000000
+\lp_solve\miplib3\air05.mps 
+Suboptimal solution
+
+Value of objective function: 26751.00000000
+\lp_solve\miplib3\arki001.mps 
+spx_run: Lost feasibility 10 times - iter       4283 and        60 nodes.
+spx_run: Lost feasibility 10 times - iter       4291 and        62 nodes.
+spx_run: Lost feasibility 10 times - iter       4293 and        64 nodes.
+spx_run: Lost feasibility 10 times - iter       4572 and       107 nodes.
+spx_run: Lost feasibility 10 times - iter       5053 and       137 nodes.
+spx_run: Lost feasibility 10 times - iter       5706 and       274 nodes.
+spx_run: Lost feasibility 10 times - iter       5712 and       278 nodes.
+spx_run: Lost feasibility 10 times - iter       5721 and       279 nodes.
+spx_run: Lost feasibility 10 times - iter       5724 and       281 nodes.
+spx_run: Lost feasibility 10 times - iter       5733 and       282 nodes.
+spx_run: Lost feasibility 10 times - iter       5790 and       302 nodes.
+spx_run: Lost feasibility 10 times - iter       5814 and       312 nodes.
+spx_run: Lost feasibility 10 times - iter       5872 and       329 nodes.
+spx_run: Lost feasibility 10 times - iter       5895 and       335 nodes.
+spx_run: Lost feasibility 10 times - iter       6104 and       414 nodes.
+spx_run: Lost feasibility 10 times - iter       6110 and       418 nodes.
+spx_run: Lost feasibility 10 times - iter       6119 and       419 nodes.
+spx_run: Lost feasibility 10 times - iter       6122 and       421 nodes.
+spx_run: Lost feasibility 10 times - iter       6131 and       422 nodes.
+spx_run: Lost feasibility 10 times - iter       6188 and       442 nodes.
+spx_run: Lost feasibility 10 times - iter       6212 and       452 nodes.
+spx_run: Lost feasibility 10 times - iter       6269 and       469 nodes.
+spx_run: Lost feasibility 10 times - iter       6292 and       475 nodes.
+spx_run: Lost feasibility 10 times - iter       7088 and       695 nodes.
+spx_run: Lost feasibility 10 times - iter       7190 and       722 nodes.
+spx_run: Lost feasibility 10 times - iter       7213 and       732 nodes.
+spx_run: Lost feasibility 10 times - iter       7245 and       743 nodes.
+spx_run: Lost feasibility 10 times - iter       7265 and       745 nodes.
+spx_run: Lost feasibility 10 times - iter       7272 and       746 nodes.
+spx_run: Lost feasibility 10 times - iter       7311 and       758 nodes.
+spx_run: Lost feasibility 10 times - iter       7338 and       765 nodes.
+spx_run: Lost feasibility 10 times - iter       7359 and       773 nodes.
+spx_run: Lost feasibility 10 times - iter       7566 and       824 nodes.
+spx_run: Lost feasibility 10 times - iter       7642 and       849 nodes.
+spx_run: Lost feasibility 10 times - iter       7896 and       945 nodes.
+spx_run: Lost feasibility 10 times - iter       7902 and       949 nodes.
+spx_run: Lost feasibility 10 times - iter       7911 and       950 nodes.
+spx_run: Lost feasibility 10 times - iter       7914 and       952 nodes.
+spx_run: Lost feasibility 10 times - iter       7923 and       953 nodes.
+spx_run: Lost feasibility 10 times - iter       7969 and       971 nodes.
+spx_run: Lost feasibility 10 times - iter       7990 and       981 nodes.
+spx_run: Lost feasibility 10 times - iter       8041 and       998 nodes.
+spx_run: Lost feasibility 10 times - iter       8055 and      1002 nodes.
+spx_run: Lost feasibility 10 times - iter       8234 and      1077 nodes.
+spx_run: Lost feasibility 10 times - iter       8240 and      1081 nodes.
+spx_run: Lost feasibility 10 times - iter       8249 and      1082 nodes.
+spx_run: Lost feasibility 10 times - iter       8252 and      1084 nodes.
+spx_run: Lost feasibility 10 times - iter       8261 and      1085 nodes.
+spx_run: Lost feasibility 10 times - iter       8296 and      1099 nodes.
+spx_run: Lost feasibility 10 times - iter       8316 and      1109 nodes.
+spx_run: Lost feasibility 10 times - iter       8362 and      1124 nodes.
+spx_run: Lost feasibility 10 times - iter       8376 and      1128 nodes.
+spx_run: Lost feasibility 10 times - iter       9458 and      1459 nodes.
+spx_run: Lost feasibility 10 times - iter       9481 and      1469 nodes.
+spx_run: Lost feasibility 10 times - iter       9513 and      1480 nodes.
+spx_run: Lost feasibility 10 times - iter       9533 and      1482 nodes.
+spx_run: Lost feasibility 10 times - iter       9540 and      1483 nodes.
+spx_run: Lost feasibility 10 times - iter       9579 and      1495 nodes.
+spx_run: Lost feasibility 10 times - iter       9605 and      1502 nodes.
+spx_run: Lost feasibility 10 times - iter       9626 and      1510 nodes.
+spx_run: Lost feasibility 10 times - iter       9833 and      1561 nodes.
+spx_run: Lost feasibility 10 times - iter       9909 and      1586 nodes.
+spx_run: Lost feasibility 10 times - iter      10164 and      1685 nodes.
+spx_run: Lost feasibility 10 times - iter      10170 and      1689 nodes.
+spx_run: Lost feasibility 10 times - iter      10176 and      1690 nodes.
+spx_run: Lost feasibility 10 times - iter      10179 and      1692 nodes.
+spx_run: Lost feasibility 10 times - iter      10185 and      1693 nodes.
+spx_run: Lost feasibility 10 times - iter      10233 and      1711 nodes.
+spx_run: Lost feasibility 10 times - iter      10255 and      1721 nodes.
+spx_run: Lost feasibility 10 times - iter      10305 and      1738 nodes.
+spx_run: Lost feasibility 10 times - iter      10315 and      1742 nodes.
+spx_run: Lost feasibility 10 times - iter      10559 and      1842 nodes.
+spx_run: Lost feasibility 10 times - iter      10583 and      1851 nodes.
+spx_run: Lost feasibility 10 times - iter      10607 and      1860 nodes.
+spx_run: Lost feasibility 10 times - iter      10622 and      1865 nodes.
+spx_run: Lost feasibility 10 times - iter      10639 and      1873 nodes.
+spx_run: Lost feasibility 10 times - iter      10697 and      1899 nodes.
+spx_run: Lost feasibility 10 times - iter      10723 and      1910 nodes.
+spx_run: Lost feasibility 10 times - iter      10762 and      1924 nodes.
+spx_run: Lost feasibility 10 times - iter      10772 and      1928 nodes.
+spx_run: Lost feasibility 10 times - iter      11922 and      2286 nodes.
+spx_run: Lost feasibility 10 times - iter      12002 and      2299 nodes.
+spx_run: Lost feasibility 10 times - iter      12014 and      2302 nodes.
+spx_run: Lost feasibility 10 times - iter      12027 and      2304 nodes.
+spx_run: Lost feasibility 10 times - iter      12033 and      2305 nodes.
+spx_run: Lost feasibility 10 times - iter      12311 and      2362 nodes.
+spx_run: Lost feasibility 10 times - iter      12334 and      2369 nodes.
+spx_run: Lost feasibility 10 times - iter      12339 and      2371 nodes.
+spx_run: Lost feasibility 10 times - iter      12348 and      2372 nodes.
+spx_run: Lost feasibility 10 times - iter      12386 and      2382 nodes.
+spx_run: Lost feasibility 10 times - iter      12431 and      2398 nodes.
+spx_run: Lost feasibility 10 times - iter      12635 and      2482 nodes.
+spx_run: Lost feasibility 10 times - iter      12641 and      2486 nodes.
+spx_run: Lost feasibility 10 times - iter      12647 and      2487 nodes.
+spx_run: Lost feasibility 10 times - iter      12650 and      2489 nodes.
+spx_run: Lost feasibility 10 times - iter      12656 and      2490 nodes.
+spx_run: Lost feasibility 10 times - iter      12704 and      2508 nodes.
+spx_run: Lost feasibility 10 times - iter      12726 and      2518 nodes.
+spx_run: Lost feasibility 10 times - iter      12776 and      2535 nodes.
+spx_run: Lost feasibility 10 times - iter      12786 and      2539 nodes.
+spx_run: Lost feasibility 10 times - iter      13029 and      2639 nodes.
+spx_run: Lost feasibility 10 times - iter      13053 and      2648 nodes.
+spx_run: Lost feasibility 10 times - iter      13076 and      2657 nodes.
+spx_run: Lost feasibility 10 times - iter      13090 and      2662 nodes.
+spx_run: Lost feasibility 10 times - iter      13107 and      2670 nodes.
+spx_run: Lost feasibility 10 times - iter      13164 and      2696 nodes.
+spx_run: Lost feasibility 10 times - iter      13190 and      2707 nodes.
+spx_run: Lost feasibility 10 times - iter      13228 and      2721 nodes.
+spx_run: Lost feasibility 10 times - iter      13238 and      2725 nodes.
+spx_run: Lost feasibility 10 times - iter      14388 and      3083 nodes.
+spx_run: Lost feasibility 10 times - iter      14468 and      3096 nodes.
+spx_run: Lost feasibility 10 times - iter      14480 and      3099 nodes.
+spx_run: Lost feasibility 10 times - iter      14493 and      3101 nodes.
+spx_run: Lost feasibility 10 times - iter      14499 and      3102 nodes.
+spx_run: Lost feasibility 10 times - iter      14773 and      3159 nodes.
+spx_run: Lost feasibility 10 times - iter      14796 and      3166 nodes.
+spx_run: Lost feasibility 10 times - iter      14801 and      3168 nodes.
+spx_run: Lost feasibility 10 times - iter      14810 and      3169 nodes.
+spx_run: Lost feasibility 10 times - iter      14848 and      3179 nodes.
+spx_run: Lost feasibility 10 times - iter      14893 and      3195 nodes.
+spx_run: Lost feasibility 10 times - iter      15098 and      3280 nodes.
+spx_run: Lost feasibility 10 times - iter      15104 and      3284 nodes.
+spx_run: Lost feasibility 10 times - iter      15110 and      3285 nodes.
+spx_run: Lost feasibility 10 times - iter      15113 and      3287 nodes.
+spx_run: Lost feasibility 10 times - iter      15119 and      3288 nodes.
+spx_run: Lost feasibility 10 times - iter      15173 and      3304 nodes.
+spx_run: Lost feasibility 10 times - iter      15222 and      3323 nodes.
+spx_run: Lost feasibility 10 times - iter      15232 and      3327 nodes.
+spx_run: Lost feasibility 10 times - iter      15245 and      3333 nodes.
+spx_run: Lost feasibility 10 times - iter      15404 and      3400 nodes.
+spx_run: Lost feasibility 10 times - iter      15410 and      3404 nodes.
+spx_run: Lost feasibility 10 times - iter      15416 and      3405 nodes.
+spx_run: Lost feasibility 10 times - iter      15419 and      3407 nodes.
+spx_run: Lost feasibility 10 times - iter      15425 and      3408 nodes.
+spx_run: Lost feasibility 10 times - iter      15471 and      3422 nodes.
+spx_run: Lost feasibility 10 times - iter      15518 and      3441 nodes.
+spx_run: Lost feasibility 10 times - iter      15528 and      3445 nodes.
+spx_run: Lost feasibility 10 times - iter      15541 and      3451 nodes.
+spx_run: Lost feasibility 10 times - iter      16717 and      3805 nodes.
+spx_run: Lost feasibility 10 times - iter      16803 and      3818 nodes.
+spx_run: Lost feasibility 10 times - iter      16815 and      3821 nodes.
+spx_run: Lost feasibility 10 times - iter      16828 and      3823 nodes.
+spx_run: Lost feasibility 10 times - iter      16834 and      3824 nodes.
+spx_run: Lost feasibility 10 times - iter      17327 and      3988 nodes.
+spx_run: Lost feasibility 10 times - iter      17422 and      4016 nodes.
+spx_run: Lost feasibility 10 times - iter      17427 and      4018 nodes.
+spx_run: Lost feasibility 10 times - iter      17436 and      4019 nodes.
+spx_run: Lost feasibility 10 times - iter      17479 and      4029 nodes.
+spx_run: Lost feasibility 10 times - iter      17493 and      4036 nodes.
+spx_run: Lost feasibility 10 times - iter      17501 and      4037 nodes.
+spx_run: Lost feasibility 10 times - iter      17703 and      4121 nodes.
+spx_run: Lost feasibility 10 times - iter      17709 and      4125 nodes.
+spx_run: Lost feasibility 10 times - iter      17715 and      4126 nodes.
+spx_run: Lost feasibility 10 times - iter      17718 and      4128 nodes.
+spx_run: Lost feasibility 10 times - iter      17724 and      4129 nodes.
+spx_run: Lost feasibility 10 times - iter      17778 and      4145 nodes.
+spx_run: Lost feasibility 10 times - iter      17827 and      4164 nodes.
+spx_run: Lost feasibility 10 times - iter      17837 and      4168 nodes.
+spx_run: Lost feasibility 10 times - iter      17850 and      4174 nodes.
+spx_run: Lost feasibility 10 times - iter      18009 and      4241 nodes.
+spx_run: Lost feasibility 10 times - iter      18015 and      4245 nodes.
+spx_run: Lost feasibility 10 times - iter      18021 and      4246 nodes.
+spx_run: Lost feasibility 10 times - iter      18024 and      4248 nodes.
+spx_run: Lost feasibility 10 times - iter      18030 and      4249 nodes.
+spx_run: Lost feasibility 10 times - iter      18075 and      4263 nodes.
+spx_run: Lost feasibility 10 times - iter      18119 and      4280 nodes.
+spx_run: Lost feasibility 10 times - iter      18129 and      4284 nodes.
+spx_run: Lost feasibility 10 times - iter      18142 and      4290 nodes.
+spx_run: Lost feasibility 10 times - iter      19325 and      4644 nodes.
+spx_run: Lost feasibility 10 times - iter      19411 and      4657 nodes.
+spx_run: Lost feasibility 10 times - iter      19423 and      4660 nodes.
+spx_run: Lost feasibility 10 times - iter      19436 and      4662 nodes.
+spx_run: Lost feasibility 10 times - iter      19442 and      4663 nodes.
+spx_run: Lost feasibility 10 times - iter      19936 and      4827 nodes.
+spx_run: Lost feasibility 10 times - iter      20031 and      4855 nodes.
+spx_run: Lost feasibility 10 times - iter      20036 and      4857 nodes.
+spx_run: Lost feasibility 10 times - iter      20045 and      4858 nodes.
+spx_run: Lost feasibility 10 times - iter      20088 and      4868 nodes.
+spx_run: Lost feasibility 10 times - iter      20102 and      4875 nodes.
+spx_run: Lost feasibility 10 times - iter      20110 and      4876 nodes.
+spx_run: Lost feasibility 10 times - iter      20337 and      4955 nodes.
+spx_run: Lost feasibility 10 times - iter      20354 and      4956 nodes.
+spx_run: Lost feasibility 10 times - iter      20495 and      4997 nodes.
+spx_run: Lost feasibility 10 times - iter      20504 and      4999 nodes.
+spx_run: Lost feasibility 10 times - iter      20558 and      5013 nodes.
+spx_run: Lost feasibility 10 times - iter      20567 and      5015 nodes.
+spx_run: Lost feasibility 10 times - iter      20633 and      5031 nodes.
+spx_run: Lost feasibility 10 times - iter      20712 and      5051 nodes.
+spx_run: Lost feasibility 10 times - iter      21972 and      5443 nodes.
+spx_run: Lost feasibility 10 times - iter      22160 and      5482 nodes.
+spx_run: Lost feasibility 10 times - iter      22362 and      5561 nodes.
+spx_run: Lost feasibility 10 times - iter      22401 and      5574 nodes.
+spx_run: Lost feasibility 10 times - iter      22433 and      5583 nodes.
+spx_run: Lost feasibility 10 times - iter      22477 and      5596 nodes.
+spx_run: Lost feasibility 10 times - iter      22566 and      5617 nodes.
+spx_run: Lost feasibility 10 times - iter      22642 and      5637 nodes.
+spx_run: Lost feasibility 10 times - iter      23016 and      5730 nodes.
+spx_run: Lost feasibility 10 times - iter      23204 and      5769 nodes.
+spx_run: Lost feasibility 10 times - iter      23600 and      5885 nodes.
+spx_run: Lost feasibility 10 times - iter      23799 and      5982 nodes.
+spx_run: Lost feasibility 10 times - iter      24441 and      6184 nodes.
+spx_run: Lost feasibility 10 times - iter      24509 and      6201 nodes.
+spx_run: Lost feasibility 10 times - iter      24643 and      6231 nodes.
+spx_run: Lost feasibility 10 times - iter      24645 and      6232 nodes.
+spx_run: Lost feasibility 10 times - iter      24687 and      6245 nodes.
+spx_run: Lost feasibility 10 times - iter      24723 and      6258 nodes.
+spx_run: Lost feasibility 10 times - iter      24837 and      6297 nodes.
+spx_run: Lost feasibility 10 times - iter      25130 and      6392 nodes.
+spx_run: Lost feasibility 10 times - iter      25147 and      6393 nodes.
+spx_run: Lost feasibility 10 times - iter      25313 and      6425 nodes.
+spx_run: Lost feasibility 10 times - iter      25360 and      6438 nodes.
+spx_run: Lost feasibility 10 times - iter      25402 and      6451 nodes.
+spx_run: Lost feasibility 10 times - iter      25465 and      6466 nodes.
+spx_run: Lost feasibility 10 times - iter      25504 and      6475 nodes.
+spx_run: Lost feasibility 10 times - iter      25563 and      6488 nodes.
+spx_run: Lost feasibility 10 times - iter      25602 and      6497 nodes.
+spx_run: Lost feasibility 10 times - iter      25663 and      6510 nodes.
+spx_run: Lost feasibility 10 times - iter      25753 and      6530 nodes.
+spx_run: Lost feasibility 10 times - iter      25765 and      6532 nodes.
+spx_run: Lost feasibility 10 times - iter      25971 and      6601 nodes.
+spx_run: Lost feasibility 10 times - iter      26457 and      6809 nodes.
+spx_run: Lost feasibility 10 times - iter      26474 and      6810 nodes.
+spx_run: Lost feasibility 10 times - iter      26576 and      6850 nodes.
+spx_run: Lost feasibility 10 times - iter      26618 and      6864 nodes.
+spx_run: Lost feasibility 10 times - iter      26660 and      6878 nodes.
+spx_run: Lost feasibility 10 times - iter      26717 and      6894 nodes.
+spx_run: Lost feasibility 10 times - iter      28069 and      7390 nodes.
+spx_run: Lost feasibility 10 times - iter      28079 and      7391 nodes.
+spx_run: Lost feasibility 10 times - iter      28150 and      7411 nodes.
+spx_run: Lost feasibility 10 times - iter      28173 and      7418 nodes.
+spx_run: Lost feasibility 10 times - iter      28183 and      7419 nodes.
+spx_run: Lost feasibility 10 times - iter      28247 and      7433 nodes.
+spx_run: Lost feasibility 10 times - iter      28269 and      7440 nodes.
+spx_run: Lost feasibility 10 times - iter      28276 and      7441 nodes.
+spx_run: Lost feasibility 10 times - iter      28334 and      7454 nodes.
+spx_run: Lost feasibility 10 times - iter      28347 and      7457 nodes.
+spx_run: Lost feasibility 10 times - iter      28354 and      7458 nodes.
+spx_run: Lost feasibility 10 times - iter      28360 and      7459 nodes.
+spx_run: Lost feasibility 10 times - iter      28423 and      7472 nodes.
+spx_run: Lost feasibility 10 times - iter      28436 and      7475 nodes.
+spx_run: Lost feasibility 10 times - iter      28443 and      7476 nodes.
+spx_run: Lost feasibility 10 times - iter      28448 and      7477 nodes.
+spx_run: Lost feasibility 10 times - iter      28514 and      7490 nodes.
+spx_run: Lost feasibility 10 times - iter      28541 and      7493 nodes.
+spx_run: Lost feasibility 10 times - iter      28550 and      7494 nodes.
+spx_run: Lost feasibility 10 times - iter      28561 and      7495 nodes.
+spx_run: Lost feasibility 10 times - iter      28627 and      7508 nodes.
+spx_run: Lost feasibility 10 times - iter      28649 and      7511 nodes.
+spx_run: Lost feasibility 10 times - iter      28657 and      7512 nodes.
+spx_run: Lost feasibility 10 times - iter      28665 and      7513 nodes.
+spx_run: Lost feasibility 10 times - iter      28732 and      7526 nodes.
+spx_run: Lost feasibility 10 times - iter      28761 and      7534 nodes.
+spx_run: Lost feasibility 10 times - iter      28770 and      7535 nodes.
+spx_run: Lost feasibility 10 times - iter      28942 and      7569 nodes.
+spx_run: Lost feasibility 10 times - iter      29020 and      7587 nodes.
+spx_run: Lost feasibility 10 times - iter      29035 and      7589 nodes.
+spx_run: Lost feasibility 10 times - iter      29253 and      7642 nodes.
+spx_run: Lost feasibility 10 times - iter      29639 and      7716 nodes.
+spx_run: Lost feasibility 10 times - iter      29924 and      7785 nodes.
+spx_run: Lost feasibility 10 times - iter      30467 and      7902 nodes.
+spx_run: Lost feasibility 10 times - iter      30479 and      7905 nodes.
+spx_run: Lost feasibility 10 times - iter      30491 and      7906 nodes.
+spx_run: Lost feasibility 10 times - iter      30568 and      7918 nodes.
+spx_run: Lost feasibility 10 times - iter      30600 and      7926 nodes.
+spx_run: Lost feasibility 10 times - iter      30689 and      7938 nodes.
+spx_run: Lost feasibility 10 times - iter      30697 and      7941 nodes.
+spx_run: Lost feasibility 10 times - iter      30713 and      7942 nodes.
+spx_run: Lost feasibility 10 times - iter      30847 and      7969 nodes.
+spx_run: Lost feasibility 10 times - iter      30857 and      7970 nodes.
+spx_run: Lost feasibility 10 times - iter      30878 and      7973 nodes.
+spx_run: Lost feasibility 10 times - iter      30910 and      7977 nodes.
+spx_run: Lost feasibility 10 times - iter      30931 and      7979 nodes.
+spx_run: Lost feasibility 10 times - iter      30993 and      7996 nodes.
+spx_run: Lost feasibility 10 times - iter      31012 and      8003 nodes.
+spx_run: Lost feasibility 10 times - iter      31039 and      8010 nodes.
+spx_run: Lost feasibility 10 times - iter      31051 and      8015 nodes.
+spx_run: Lost feasibility 10 times - iter      31060 and      8017 nodes.
+spx_run: Lost feasibility 10 times - iter      31080 and      8020 nodes.
+spx_run: Lost feasibility 10 times - iter      31089 and      8025 nodes.
+spx_run: Lost feasibility 10 times - iter      31119 and      8030 nodes.
+spx_run: Lost feasibility 10 times - iter      31167 and      8040 nodes.
+spx_run: Lost feasibility 10 times - iter      31189 and      8047 nodes.
+spx_run: Lost feasibility 10 times - iter      31216 and      8054 nodes.
+spx_run: Lost feasibility 10 times - iter      31233 and      8060 nodes.
+spx_run: Lost feasibility 10 times - iter      31262 and      8067 nodes.
+spx_run: Lost feasibility 10 times - iter      31333 and      8086 nodes.
+spx_run: Lost feasibility 10 times - iter      31342 and      8087 nodes.
+spx_run: Lost feasibility 10 times - iter      31463 and      8112 nodes.
+spx_run: Lost feasibility 10 times - iter      31472 and      8113 nodes.
+spx_run: Lost feasibility 10 times - iter      31547 and      8130 nodes.
+spx_run: Lost feasibility 10 times - iter      31556 and      8131 nodes.
+spx_run: Lost feasibility 10 times - iter      31609 and      8135 nodes.
+spx_run: Lost feasibility 10 times - iter      31670 and      8150 nodes.
+spx_run: Lost feasibility 10 times - iter      31718 and      8163 nodes.
+spx_run: Lost feasibility 10 times - iter      32031 and      8254 nodes.
+spx_run: Lost feasibility 10 times - iter      32177 and      8294 nodes.
+spx_run: Lost feasibility 10 times - iter      32201 and      8301 nodes.
+spx_run: Lost feasibility 10 times - iter      32227 and      8309 nodes.
+spx_run: Lost feasibility 10 times - iter      32246 and      8316 nodes.
+spx_run: Lost feasibility 10 times - iter      32274 and      8324 nodes.
+spx_run: Lost feasibility 10 times - iter      32361 and      8343 nodes.
+spx_run: Lost feasibility 10 times - iter      32375 and      8346 nodes.
+spx_run: Lost feasibility 10 times - iter      32384 and      8349 nodes.
+spx_run: Lost feasibility 10 times - iter      32472 and      8367 nodes.
+spx_run: Lost feasibility 10 times - iter      32486 and      8370 nodes.
+spx_run: Lost feasibility 10 times - iter      32495 and      8373 nodes.
+spx_run: Lost feasibility 10 times - iter      32587 and      8391 nodes.
+spx_run: Lost feasibility 10 times - iter      32601 and      8394 nodes.
+spx_run: Lost feasibility 10 times - iter      32610 and      8397 nodes.
+spx_run: Lost feasibility 10 times - iter      32686 and      8415 nodes.
+spx_run: Lost feasibility 10 times - iter      32718 and      8424 nodes.
+spx_run: Lost feasibility 10 times - iter      32728 and      8427 nodes.
+spx_run: Lost feasibility 10 times - iter      32936 and      8489 nodes.
+spx_run: Lost feasibility 10 times - iter      32977 and      8498 nodes.
+spx_run: Lost feasibility 10 times - iter      32986 and      8499 nodes.
+spx_run: Lost feasibility 10 times - iter      33269 and      8559 nodes.
+spx_run: Lost feasibility 10 times - iter      33422 and      8587 nodes.
+spx_run: Lost feasibility 10 times - iter      33447 and      8591 nodes.
+spx_run: Lost feasibility 10 times - iter      33465 and      8593 nodes.
+spx_run: Lost feasibility 10 times - iter      33516 and      8606 nodes.
+spx_run: Lost feasibility 10 times - iter      33566 and      8620 nodes.
+spx_run: Lost feasibility 10 times - iter      33645 and      8641 nodes.
+spx_run: Lost feasibility 10 times - iter      33653 and      8643 nodes.
+spx_run: Lost feasibility 10 times - iter      33664 and      8645 nodes.
+spx_run: Lost feasibility 10 times - iter      33715 and      8655 nodes.
+spx_run: Lost feasibility 10 times - iter      33764 and      8668 nodes.
+spx_run: Lost feasibility 10 times - iter      33808 and      8681 nodes.
+spx_run: Lost feasibility 10 times - iter      33875 and      8696 nodes.
+spx_run: Lost feasibility 10 times - iter      33966 and      8716 nodes.
+spx_run: Lost feasibility 10 times - iter      34060 and      8736 nodes.
+spx_run: Lost feasibility 10 times - iter      34153 and      8756 nodes.
+spx_run: Lost feasibility 10 times - iter      34453 and      8852 nodes.
+spx_run: Lost feasibility 10 times - iter      34470 and      8853 nodes.
+spx_run: Lost feasibility 10 times - iter      34611 and      8894 nodes.
+spx_run: Lost feasibility 10 times - iter      34620 and      8896 nodes.
+spx_run: Lost feasibility 10 times - iter      34674 and      8910 nodes.
+spx_run: Lost feasibility 10 times - iter      34683 and      8912 nodes.
+spx_run: Lost feasibility 10 times - iter      34749 and      8928 nodes.
+spx_run: Lost feasibility 10 times - iter      34828 and      8948 nodes.
+spx_run: Lost feasibility 10 times - iter      35702 and      9254 nodes.
+spx_run: Lost feasibility 10 times - iter      35722 and      9256 nodes.
+spx_run: Lost feasibility 10 times - iter      35875 and      9286 nodes.
+spx_run: Lost feasibility 10 times - iter      35877 and      9287 nodes.
+spx_run: Lost feasibility 10 times - iter      35919 and      9300 nodes.
+spx_run: Lost feasibility 10 times - iter      35958 and      9313 nodes.
+spx_run: Lost feasibility 10 times - iter      36102 and      9347 nodes.
+spx_run: Lost feasibility 10 times - iter      36315 and      9394 nodes.
+spx_run: Lost feasibility 10 times - iter      36510 and      9445 nodes.
+spx_run: Lost feasibility 10 times - iter      36694 and      9484 nodes.
+spx_run: Lost feasibility 10 times - iter      37086 and      9600 nodes.
+spx_run: Lost feasibility 10 times - iter      37374 and      9714 nodes.
+spx_run: Lost feasibility 10 times - iter      37392 and      9715 nodes.
+spx_run: Lost feasibility 10 times - iter      37435 and      9729 nodes.
+spx_run: Lost feasibility 10 times - iter      38027 and      9925 nodes.
+spx_run: Lost feasibility 10 times - iter      38092 and      9942 nodes.
+spx_run: Lost feasibility 10 times - iter      38112 and      9944 nodes.
+spx_run: Lost feasibility 10 times - iter      38250 and      9977 nodes.
+spx_run: Lost feasibility 10 times - iter      38349 and     10003 nodes.
+spx_run: Lost feasibility 10 times - iter      38888 and     10185 nodes.
+spx_run: Lost feasibility 10 times - iter      38905 and     10186 nodes.
+spx_run: Lost feasibility 10 times - iter      39071 and     10218 nodes.
+spx_run: Lost feasibility 10 times - iter      39118 and     10231 nodes.
+spx_run: Lost feasibility 10 times - iter      39160 and     10244 nodes.
+spx_run: Lost feasibility 10 times - iter      39223 and     10259 nodes.
+spx_run: Lost feasibility 10 times - iter      39259 and     10268 nodes.
+spx_run: Lost feasibility 10 times - iter      39317 and     10281 nodes.
+spx_run: Lost feasibility 10 times - iter      39353 and     10290 nodes.
+spx_run: Lost feasibility 10 times - iter      39414 and     10303 nodes.
+spx_run: Lost feasibility 10 times - iter      39502 and     10323 nodes.
+spx_run: Lost feasibility 10 times - iter      39514 and     10325 nodes.
+spx_run: Lost feasibility 10 times - iter      39719 and     10394 nodes.
+spx_run: Lost feasibility 10 times - iter      40176 and     10592 nodes.
+spx_run: Lost feasibility 10 times - iter      40193 and     10593 nodes.
+spx_run: Lost feasibility 10 times - iter      40295 and     10633 nodes.
+spx_run: Lost feasibility 10 times - iter      40337 and     10647 nodes.
+spx_run: Lost feasibility 10 times - iter      40379 and     10661 nodes.
+spx_run: Lost feasibility 10 times - iter      40436 and     10677 nodes.
+spx_run: Lost feasibility 10 times - iter      41787 and     11173 nodes.
+spx_run: Lost feasibility 10 times - iter      41797 and     11174 nodes.
+spx_run: Lost feasibility 10 times - iter      41868 and     11194 nodes.
+spx_run: Lost feasibility 10 times - iter      41891 and     11201 nodes.
+spx_run: Lost feasibility 10 times - iter      41901 and     11202 nodes.
+spx_run: Lost feasibility 10 times - iter      41965 and     11216 nodes.
+spx_run: Lost feasibility 10 times - iter      41987 and     11223 nodes.
+spx_run: Lost feasibility 10 times - iter      41994 and     11224 nodes.
+spx_run: Lost feasibility 10 times - iter      42052 and     11237 nodes.
+spx_run: Lost feasibility 10 times - iter      42065 and     11240 nodes.
+spx_run: Lost feasibility 10 times - iter      42072 and     11241 nodes.
+spx_run: Lost feasibility 10 times - iter      42078 and     11242 nodes.
+spx_run: Lost feasibility 10 times - iter      42141 and     11255 nodes.
+spx_run: Lost feasibility 10 times - iter      42154 and     11258 nodes.
+spx_run: Lost feasibility 10 times - iter      42161 and     11259 nodes.
+spx_run: Lost feasibility 10 times - iter      42166 and     11260 nodes.
+spx_run: Lost feasibility 10 times - iter      42232 and     11273 nodes.
+spx_run: Lost feasibility 10 times - iter      42259 and     11276 nodes.
+spx_run: Lost feasibility 10 times - iter      42268 and     11277 nodes.
+spx_run: Lost feasibility 10 times - iter      42279 and     11278 nodes.
+spx_run: Lost feasibility 10 times - iter      42345 and     11291 nodes.
+spx_run: Lost feasibility 10 times - iter      42363 and     11294 nodes.
+spx_run: Lost feasibility 10 times - iter      42371 and     11295 nodes.
+spx_run: Lost feasibility 10 times - iter      42379 and     11296 nodes.
+spx_run: Lost feasibility 10 times - iter      42446 and     11309 nodes.
+spx_run: Lost feasibility 10 times - iter      42475 and     11317 nodes.
+spx_run: Lost feasibility 10 times - iter      42484 and     11318 nodes.
+spx_run: Lost feasibility 10 times - iter      42652 and     11352 nodes.
+spx_run: Lost feasibility 10 times - iter      42728 and     11370 nodes.
+spx_run: Lost feasibility 10 times - iter      42743 and     11372 nodes.
+spx_run: Lost feasibility 10 times - iter      42952 and     11421 nodes.
+spx_run: Lost feasibility 10 times - iter      43337 and     11493 nodes.
+spx_run: Lost feasibility 10 times - iter      43620 and     11562 nodes.
+spx_run: Lost feasibility 10 times - iter      44162 and     11677 nodes.
+spx_run: Lost feasibility 10 times - iter      44172 and     11680 nodes.
+spx_run: Lost feasibility 10 times - iter      44183 and     11681 nodes.
+spx_run: Lost feasibility 10 times - iter      44260 and     11693 nodes.
+spx_run: Lost feasibility 10 times - iter      44291 and     11701 nodes.
+spx_run: Lost feasibility 10 times - iter      44379 and     11713 nodes.
+spx_run: Lost feasibility 10 times - iter      44387 and     11716 nodes.
+spx_run: Lost feasibility 10 times - iter      44402 and     11717 nodes.
+spx_run: Lost feasibility 10 times - iter      44542 and     11744 nodes.
+spx_run: Lost feasibility 10 times - iter      44552 and     11745 nodes.
+spx_run: Lost feasibility 10 times - iter      44573 and     11748 nodes.
+spx_run: Lost feasibility 10 times - iter      44605 and     11752 nodes.
+spx_run: Lost feasibility 10 times - iter      44626 and     11754 nodes.
+spx_run: Lost feasibility 10 times - iter      44688 and     11771 nodes.
+spx_run: Lost feasibility 10 times - iter      44707 and     11778 nodes.
+spx_run: Lost feasibility 10 times - iter      44734 and     11785 nodes.
+spx_run: Lost feasibility 10 times - iter      44746 and     11790 nodes.
+spx_run: Lost feasibility 10 times - iter      44755 and     11792 nodes.
+spx_run: Lost feasibility 10 times - iter      44775 and     11795 nodes.
+spx_run: Lost feasibility 10 times - iter      44784 and     11800 nodes.
+spx_run: Lost feasibility 10 times - iter      44814 and     11805 nodes.
+spx_run: Lost feasibility 10 times - iter      44862 and     11815 nodes.
+spx_run: Lost feasibility 10 times - iter      44884 and     11822 nodes.
+spx_run: Lost feasibility 10 times - iter      44911 and     11829 nodes.
+spx_run: Lost feasibility 10 times - iter      44928 and     11835 nodes.
+spx_run: Lost feasibility 10 times - iter      44957 and     11842 nodes.
+spx_run: Lost feasibility 10 times - iter      45028 and     11861 nodes.
+spx_run: Lost feasibility 10 times - iter      45037 and     11862 nodes.
+spx_run: Lost feasibility 10 times - iter      45158 and     11887 nodes.
+spx_run: Lost feasibility 10 times - iter      45167 and     11888 nodes.
+spx_run: Lost feasibility 10 times - iter      45242 and     11905 nodes.
+spx_run: Lost feasibility 10 times - iter      45251 and     11906 nodes.
+spx_run: Lost feasibility 10 times - iter      45304 and     11910 nodes.
+spx_run: Lost feasibility 10 times - iter      45365 and     11925 nodes.
+spx_run: Lost feasibility 10 times - iter      45413 and     11938 nodes.
+spx_run: Lost feasibility 10 times - iter      45726 and     12029 nodes.
+spx_run: Lost feasibility 10 times - iter      45872 and     12069 nodes.
+spx_run: Lost feasibility 10 times - iter      45896 and     12076 nodes.
+spx_run: Lost feasibility 10 times - iter      45922 and     12084 nodes.
+spx_run: Lost feasibility 10 times - iter      45941 and     12091 nodes.
+spx_run: Lost feasibility 10 times - iter      45969 and     12099 nodes.
+spx_run: Lost feasibility 10 times - iter      46056 and     12118 nodes.
+spx_run: Lost feasibility 10 times - iter      46070 and     12121 nodes.
+spx_run: Lost feasibility 10 times - iter      46079 and     12124 nodes.
+spx_run: Lost feasibility 10 times - iter      46167 and     12142 nodes.
+spx_run: Lost feasibility 10 times - iter      46181 and     12145 nodes.
+spx_run: Lost feasibility 10 times - iter      46190 and     12148 nodes.
+spx_run: Lost feasibility 10 times - iter      46282 and     12166 nodes.
+spx_run: Lost feasibility 10 times - iter      46296 and     12169 nodes.
+spx_run: Lost feasibility 10 times - iter      46305 and     12172 nodes.
+spx_run: Lost feasibility 10 times - iter      46381 and     12190 nodes.
+spx_run: Lost feasibility 10 times - iter      46413 and     12199 nodes.
+spx_run: Lost feasibility 10 times - iter      46423 and     12202 nodes.
+spx_run: Lost feasibility 10 times - iter      46631 and     12264 nodes.
+spx_run: Lost feasibility 10 times - iter      46672 and     12273 nodes.
+spx_run: Lost feasibility 10 times - iter      46681 and     12274 nodes.
+spx_run: Lost feasibility 10 times - iter      46962 and     12334 nodes.
+spx_run: Lost feasibility 10 times - iter      47115 and     12362 nodes.
+spx_run: Lost feasibility 10 times - iter      47140 and     12366 nodes.
+spx_run: Lost feasibility 10 times - iter      47158 and     12368 nodes.
+spx_run: Lost feasibility 10 times - iter      47208 and     12381 nodes.
+spx_run: Lost feasibility 10 times - iter      47258 and     12395 nodes.
+spx_run: Lost feasibility 10 times - iter      47337 and     12416 nodes.
+spx_run: Lost feasibility 10 times - iter      47345 and     12418 nodes.
+spx_run: Lost feasibility 10 times - iter      47356 and     12420 nodes.
+spx_run: Lost feasibility 10 times - iter      47407 and     12430 nodes.
+spx_run: Lost feasibility 10 times - iter      47456 and     12443 nodes.
+spx_run: Lost feasibility 10 times - iter      47500 and     12456 nodes.
+spx_run: Lost feasibility 10 times - iter      47567 and     12471 nodes.
+spx_run: Lost feasibility 10 times - iter      47658 and     12491 nodes.
+spx_run: Lost feasibility 10 times - iter      47752 and     12511 nodes.
+spx_run: Lost feasibility 10 times - iter      47845 and     12531 nodes.
+spx_run: Lost feasibility 10 times - iter      48199 and     12635 nodes.
+spx_run: Lost feasibility 10 times - iter      48325 and     12660 nodes.
+spx_run: Lost feasibility 10 times - iter      48335 and     12662 nodes.
+spx_run: Lost feasibility 10 times - iter      48413 and     12676 nodes.
+spx_run: Lost feasibility 10 times - iter      48423 and     12678 nodes.
+spx_run: Lost feasibility 10 times - iter      48512 and     12694 nodes.
+spx_run: Lost feasibility 10 times - iter      48597 and     12714 nodes.
+spx_run: Lost feasibility 10 times - iter      48803 and     12774 nodes.
+spx_run: Lost feasibility 10 times - iter      48870 and     12788 nodes.
+spx_run: Lost feasibility 10 times - iter      48917 and     12801 nodes.
+spx_run: Lost feasibility 10 times - iter      48961 and     12814 nodes.
+spx_run: Lost feasibility 10 times - iter      49029 and     12829 nodes.
+spx_run: Lost feasibility 10 times - iter      49112 and     12849 nodes.
+spx_run: Lost feasibility 10 times - iter      49199 and     12869 nodes.
+spx_run: Lost feasibility 10 times - iter      49282 and     12889 nodes.
+spx_run: Lost feasibility 10 times - iter      49292 and     12891 nodes.
+spx_run: Lost feasibility 10 times - iter      49563 and     12958 nodes.
+spx_run: Lost feasibility 10 times - iter      49747 and     12999 nodes.
+spx_run: Lost feasibility 10 times - iter      49755 and     13001 nodes.
+spx_run: Lost feasibility 10 times - iter      49825 and     13015 nodes.
+spx_run: Lost feasibility 10 times - iter      49833 and     13017 nodes.
+spx_run: Lost feasibility 10 times - iter      49909 and     13031 nodes.
+spx_run: Lost feasibility 10 times - iter      49917 and     13033 nodes.
+spx_run: Lost feasibility 10 times - iter      49997 and     13049 nodes.
+spx_run: Lost feasibility 10 times - iter      50013 and     13052 nodes.
+spx_run: Lost feasibility 10 times - iter      50017 and     13053 nodes.
+spx_run: Lost feasibility 10 times - iter      50483 and     13211 nodes.
+spx_run: Lost feasibility 10 times - iter      50768 and     13276 nodes.
+spx_run: Lost feasibility 10 times - iter      50776 and     13278 nodes.
+spx_run: Lost feasibility 10 times - iter      50837 and     13294 nodes.
+spx_run: Lost feasibility 10 times - iter      50845 and     13296 nodes.
+spx_run: Lost feasibility 10 times - iter      50911 and     13312 nodes.
+spx_run: Lost feasibility 10 times - iter      50919 and     13314 nodes.
+spx_run: Lost feasibility 10 times - iter      50921 and     13315 nodes.
+spx_run: Lost feasibility 10 times - iter      51206 and     13403 nodes.
+spx_run: Lost feasibility 10 times - iter      51238 and     13410 nodes.
+spx_run: Lost feasibility 10 times - iter      51336 and     13430 nodes.
+spx_run: Lost feasibility 10 times - iter      51383 and     13443 nodes.
+spx_run: Lost feasibility 10 times - iter      51424 and     13456 nodes.
+spx_run: Lost feasibility 10 times - iter      51506 and     13473 nodes.
+spx_run: Lost feasibility 10 times - iter      51621 and     13506 nodes.
+spx_run: Lost feasibility 10 times - iter      51698 and     13521 nodes.
+spx_run: Lost feasibility 10 times - iter      51813 and     13554 nodes.
+spx_run: Lost feasibility 10 times - iter      51893 and     13569 nodes.
+spx_run: Lost feasibility 10 times - iter      52005 and     13602 nodes.
+spx_run: Lost feasibility 10 times - iter      52085 and     13617 nodes.
+spx_run: Lost feasibility 10 times - iter      52095 and     13619 nodes.
+spx_run: Lost feasibility 10 times - iter      52514 and     13726 nodes.
+spx_run: Lost feasibility 10 times - iter      52711 and     13769 nodes.
+spx_run: Lost feasibility 10 times - iter      52719 and     13771 nodes.
+spx_run: Lost feasibility 10 times - iter      52791 and     13785 nodes.
+spx_run: Lost feasibility 10 times - iter      52799 and     13787 nodes.
+spx_run: Lost feasibility 10 times - iter      52877 and     13801 nodes.
+spx_run: Lost feasibility 10 times - iter      52885 and     13803 nodes.
+spx_run: Lost feasibility 10 times - iter      52893 and     13805 nodes.
+spx_run: Lost feasibility 10 times - iter      53265 and     13938 nodes.
+spx_run: Lost feasibility 10 times - iter      53285 and     13939 nodes.
+spx_run: Lost feasibility 10 times - iter      53332 and     13953 nodes.
+spx_run: Lost feasibility 10 times - iter      53664 and     14039 nodes.
+spx_run: Lost feasibility 10 times - iter      53933 and     14102 nodes.
+spx_run: Lost feasibility 10 times - iter      53941 and     14104 nodes.
+spx_run: Lost feasibility 10 times - iter      54001 and     14118 nodes.
+spx_run: Lost feasibility 10 times - iter      54009 and     14120 nodes.
+spx_run: Lost feasibility 10 times - iter      54075 and     14134 nodes.
+spx_run: Lost feasibility 10 times - iter      54083 and     14136 nodes.
+spx_run: Lost feasibility 10 times - iter      54169 and     14152 nodes.
+spx_run: Lost feasibility 10 times - iter      54185 and     14155 nodes.
+spx_run: Lost feasibility 10 times - iter      54189 and     14156 nodes.
+spx_run: Lost feasibility 10 times - iter      54558 and     14260 nodes.
+spx_run: Lost feasibility 10 times - iter      54663 and     14280 nodes.
+spx_run: Lost feasibility 10 times - iter      54709 and     14293 nodes.
+spx_run: Lost feasibility 10 times - iter      54750 and     14306 nodes.
+spx_run: Lost feasibility 10 times - iter      54824 and     14321 nodes.
+spx_run: Lost feasibility 10 times - iter      54864 and     14330 nodes.
+spx_run: Lost feasibility 10 times - iter      54934 and     14343 nodes.
+spx_run: Lost feasibility 10 times - iter      54974 and     14352 nodes.
+spx_run: Lost feasibility 10 times - iter      55046 and     14365 nodes.
+spx_run: Lost feasibility 10 times - iter      55073 and     14374 nodes.
+spx_run: Lost feasibility 10 times - iter      55143 and     14387 nodes.
+spx_run: Lost feasibility 10 times - iter      55153 and     14389 nodes.
+spx_run: Lost feasibility 10 times - iter      55543 and     14494 nodes.
+spx_run: Lost feasibility 10 times - iter      55737 and     14537 nodes.
+spx_run: Lost feasibility 10 times - iter      55745 and     14539 nodes.
+spx_run: Lost feasibility 10 times - iter      55817 and     14553 nodes.
+spx_run: Lost feasibility 10 times - iter      55825 and     14555 nodes.
+spx_run: Lost feasibility 10 times - iter      55903 and     14569 nodes.
+spx_run: Lost feasibility 10 times - iter      55911 and     14571 nodes.
+spx_run: Lost feasibility 10 times - iter      55919 and     14573 nodes.
+spx_run: Lost feasibility 10 times - iter      56350 and     14735 nodes.
+spx_run: Lost feasibility 10 times - iter      56453 and     14758 nodes.
+spx_run: Lost feasibility 10 times - iter      56461 and     14760 nodes.
+spx_run: Lost feasibility 10 times - iter      56519 and     14772 nodes.
+spx_run: Lost feasibility 10 times - iter      56527 and     14774 nodes.
+spx_run: Lost feasibility 10 times - iter      56585 and     14788 nodes.
+spx_run: Lost feasibility 10 times - iter      56660 and     14803 nodes.
+spx_run: Lost feasibility 10 times - iter      56664 and     14804 nodes.
+spx_run: Lost feasibility 10 times - iter      56943 and     14897 nodes.
+spx_run: Lost feasibility 10 times - iter      57058 and     14922 nodes.
+spx_run: Lost feasibility 10 times - iter      57132 and     14936 nodes.
+spx_run: Lost feasibility 10 times - iter      57207 and     14950 nodes.
+spx_run: Lost feasibility 10 times - iter      57262 and     14963 nodes.
+spx_run: Lost feasibility 10 times - iter      58769 and     15494 nodes.
+spx_run: Lost feasibility 10 times - iter      58809 and     15507 nodes.
+spx_run: Lost feasibility 10 times - iter      58819 and     15508 nodes.
+spx_run: Lost feasibility 10 times - iter      58899 and     15528 nodes.
+spx_run: Lost feasibility 10 times - iter      58906 and     15530 nodes.
+spx_run: Lost feasibility 10 times - iter      58913 and     15531 nodes.
+spx_run: Lost feasibility 10 times - iter      58921 and     15532 nodes.
+spx_run: Lost feasibility 10 times - iter      58979 and     15546 nodes.
+spx_run: Lost feasibility 10 times - iter      58986 and     15548 nodes.
+spx_run: Lost feasibility 10 times - iter      58993 and     15549 nodes.
+spx_run: Lost feasibility 10 times - iter      58998 and     15550 nodes.
+spx_run: Lost feasibility 10 times - iter      59050 and     15563 nodes.
+spx_run: Lost feasibility 10 times - iter      59063 and     15566 nodes.
+spx_run: Lost feasibility 10 times - iter      59070 and     15567 nodes.
+spx_run: Lost feasibility 10 times - iter      59076 and     15568 nodes.
+spx_run: Lost feasibility 10 times - iter      59132 and     15581 nodes.
+spx_run: Lost feasibility 10 times - iter      59145 and     15584 nodes.
+spx_run: Lost feasibility 10 times - iter      59152 and     15585 nodes.
+spx_run: Lost feasibility 10 times - iter      59157 and     15586 nodes.
+spx_run: Lost feasibility 10 times - iter      59236 and     15601 nodes.
+spx_run: Lost feasibility 10 times - iter      59264 and     15604 nodes.
+spx_run: Lost feasibility 10 times - iter      59272 and     15605 nodes.
+spx_run: Lost feasibility 10 times - iter      59283 and     15606 nodes.
+spx_run: Lost feasibility 10 times - iter      59351 and     15619 nodes.
+spx_run: Lost feasibility 10 times - iter      59365 and     15622 nodes.
+spx_run: Lost feasibility 10 times - iter      59374 and     15623 nodes.
+spx_run: Lost feasibility 10 times - iter      59382 and     15624 nodes.
+spx_run: Lost feasibility 10 times - iter      59451 and     15637 nodes.
+spx_run: Lost feasibility 10 times - iter      59464 and     15640 nodes.
+spx_run: Lost feasibility 10 times - iter      59472 and     15641 nodes.
+spx_run: Lost feasibility 10 times - iter      59480 and     15642 nodes.
+spx_run: Lost feasibility 10 times - iter      59665 and     15678 nodes.
+spx_run: Lost feasibility 10 times - iter      59734 and     15694 nodes.
+spx_run: Lost feasibility 10 times - iter      59931 and     15747 nodes.
+spx_run: Lost feasibility 10 times - iter      60308 and     15825 nodes.
+spx_run: Lost feasibility 10 times - iter      60513 and     15882 nodes.
+spx_run: Lost feasibility 10 times - iter      61014 and     15993 nodes.
+spx_run: Lost feasibility 10 times - iter      61027 and     15996 nodes.
+spx_run: Lost feasibility 10 times - iter      61039 and     15997 nodes.
+spx_run: Lost feasibility 10 times - iter      61106 and     16009 nodes.
+spx_run: Lost feasibility 10 times - iter      61137 and     16017 nodes.
+spx_run: Lost feasibility 10 times - iter      61205 and     16029 nodes.
+spx_run: Lost feasibility 10 times - iter      61214 and     16032 nodes.
+spx_run: Lost feasibility 10 times - iter      61229 and     16033 nodes.
+spx_run: Lost feasibility 10 times - iter      61328 and     16048 nodes.
+spx_run: Lost feasibility 10 times - iter      61338 and     16049 nodes.
+spx_run: Lost feasibility 10 times - iter      61360 and     16051 nodes.
+spx_run: Lost feasibility 10 times - iter      61421 and     16067 nodes.
+spx_run: Lost feasibility 10 times - iter      61441 and     16074 nodes.
+spx_run: Lost feasibility 10 times - iter      61470 and     16081 nodes.
+spx_run: Lost feasibility 10 times - iter      61494 and     16086 nodes.
+spx_run: Lost feasibility 10 times - iter      61516 and     16088 nodes.
+spx_run: Lost feasibility 10 times - iter      61533 and     16090 nodes.
+spx_run: Lost feasibility 10 times - iter      61540 and     16092 nodes.
+spx_run: Lost feasibility 10 times - iter      61567 and     16097 nodes.
+spx_run: Lost feasibility 10 times - iter      61628 and     16107 nodes.
+spx_run: Lost feasibility 10 times - iter      61649 and     16114 nodes.
+spx_run: Lost feasibility 10 times - iter      61678 and     16121 nodes.
+spx_run: Lost feasibility 10 times - iter      61695 and     16127 nodes.
+spx_run: Lost feasibility 10 times - iter      61728 and     16134 nodes.
+spx_run: Lost feasibility 10 times - iter      61799 and     16152 nodes.
+spx_run: Lost feasibility 10 times - iter      61813 and     16156 nodes.
+spx_run: Lost feasibility 10 times - iter      61821 and     16158 nodes.
+spx_run: Lost feasibility 10 times - iter      61829 and     16160 nodes.
+spx_run: Lost feasibility 10 times - iter      61843 and     16166 nodes.
+spx_run: Lost feasibility 10 times - iter      61853 and     16169 nodes.
+spx_run: Lost feasibility 10 times - iter      61861 and     16171 nodes.
+spx_run: Lost feasibility 10 times - iter      61869 and     16173 nodes.
+spx_run: Lost feasibility 10 times - iter      61883 and     16179 nodes.
+spx_run: Lost feasibility 10 times - iter      62122 and     16251 nodes.
+spx_run: Lost feasibility 10 times - iter      62365 and     16308 nodes.
+spx_run: Lost feasibility 10 times - iter      62408 and     16317 nodes.
+spx_run: Lost feasibility 10 times - iter      62417 and     16318 nodes.
+spx_run: Lost feasibility 10 times - iter      62495 and     16342 nodes.
+spx_run: Lost feasibility 10 times - iter      62519 and     16345 nodes.
+spx_run: Lost feasibility 10 times - iter      62531 and     16347 nodes.
+spx_run: Lost feasibility 10 times - iter      62548 and     16354 nodes.
+spx_run: Lost feasibility 10 times - iter      62599 and     16368 nodes.
+spx_run: Lost feasibility 10 times - iter      62613 and     16371 nodes.
+spx_run: Lost feasibility 10 times - iter      62621 and     16373 nodes.
+spx_run: Lost feasibility 10 times - iter      62635 and     16380 nodes.
+spx_run: Lost feasibility 10 times - iter      62684 and     16392 nodes.
+spx_run: Lost feasibility 10 times - iter      62700 and     16395 nodes.
+spx_run: Lost feasibility 10 times - iter      62711 and     16398 nodes.
+spx_run: Lost feasibility 10 times - iter      62728 and     16406 nodes.
+spx_run: Lost feasibility 10 times - iter      62781 and     16420 nodes.
+spx_run: Lost feasibility 10 times - iter      62799 and     16423 nodes.
+spx_run: Lost feasibility 10 times - iter      62810 and     16426 nodes.
+spx_run: Lost feasibility 10 times - iter      62825 and     16434 nodes.
+spx_run: Lost feasibility 10 times - iter      62935 and     16453 nodes.
+spx_run: Lost feasibility 10 times - iter      62944 and     16454 nodes.
+spx_run: Lost feasibility 10 times - iter      63023 and     16471 nodes.
+spx_run: Lost feasibility 10 times - iter      63029 and     16472 nodes.
+spx_run: Lost feasibility 10 times - iter      63095 and     16486 nodes.
+spx_run: Lost feasibility 10 times - iter      63127 and     16489 nodes.
+spx_run: Lost feasibility 10 times - iter      63179 and     16503 nodes.
+spx_run: Lost feasibility 10 times - iter      63190 and     16505 nodes.
+spx_run: Lost feasibility 10 times - iter      63205 and     16510 nodes.
+spx_run: Lost feasibility 10 times - iter      63255 and     16517 nodes.
+spx_run: Lost feasibility 10 times - iter      63286 and     16525 nodes.
+spx_run: Lost feasibility 10 times - iter      63306 and     16526 nodes.
+spx_run: Lost feasibility 10 times - iter      63371 and     16539 nodes.
+spx_run: Lost feasibility 10 times - iter      63451 and     16555 nodes.
+spx_run: Lost feasibility 10 times - iter      63513 and     16568 nodes.
+spx_run: Lost feasibility 10 times - iter      63524 and     16569 nodes.
+spx_run: Lost feasibility 10 times - iter      63571 and     16578 nodes.
+spx_run: Lost feasibility 10 times - iter      63618 and     16590 nodes.
+spx_run: Lost feasibility 10 times - iter      63852 and     16645 nodes.
+spx_run: Lost feasibility 10 times - iter      63873 and     16649 nodes.
+spx_run: Lost feasibility 10 times - iter      64151 and     16734 nodes.
+spx_run: Lost feasibility 10 times - iter      64277 and     16759 nodes.
+spx_run: Lost feasibility 10 times - iter      64287 and     16761 nodes.
+spx_run: Lost feasibility 10 times - iter      64365 and     16775 nodes.
+spx_run: Lost feasibility 10 times - iter      64375 and     16777 nodes.
+spx_run: Lost feasibility 10 times - iter      64464 and     16793 nodes.
+spx_run: Lost feasibility 10 times - iter      64545 and     16811 nodes.
+spx_run: Lost feasibility 10 times - iter      64751 and     16871 nodes.
+spx_run: Lost feasibility 10 times - iter      64818 and     16885 nodes.
+spx_run: Lost feasibility 10 times - iter      64865 and     16898 nodes.
+spx_run: Lost feasibility 10 times - iter      64909 and     16911 nodes.
+spx_run: Lost feasibility 10 times - iter      64977 and     16926 nodes.
+spx_run: Lost feasibility 10 times - iter      65060 and     16946 nodes.
+spx_run: Lost feasibility 10 times - iter      65147 and     16966 nodes.
+spx_run: Lost feasibility 10 times - iter      65230 and     16986 nodes.
+spx_run: Lost feasibility 10 times - iter      65240 and     16988 nodes.
+spx_run: Lost feasibility 10 times - iter      65511 and     17055 nodes.
+spx_run: Lost feasibility 10 times - iter      65695 and     17096 nodes.
+spx_run: Lost feasibility 10 times - iter      65703 and     17098 nodes.
+spx_run: Lost feasibility 10 times - iter      65773 and     17112 nodes.
+spx_run: Lost feasibility 10 times - iter      65781 and     17114 nodes.
+spx_run: Lost feasibility 10 times - iter      65857 and     17128 nodes.
+spx_run: Lost feasibility 10 times - iter      65865 and     17130 nodes.
+spx_run: Lost feasibility 10 times - iter      65945 and     17146 nodes.
+spx_run: Lost feasibility 10 times - iter      65961 and     17149 nodes.
+spx_run: Lost feasibility 10 times - iter      65965 and     17150 nodes.
+spx_run: Lost feasibility 10 times - iter      66254 and     17267 nodes.
+spx_run: Lost feasibility 10 times - iter      66419 and     17304 nodes.
+spx_run: Lost feasibility 10 times - iter      66704 and     17369 nodes.
+spx_run: Lost feasibility 10 times - iter      66712 and     17371 nodes.
+spx_run: Lost feasibility 10 times - iter      66773 and     17387 nodes.
+spx_run: Lost feasibility 10 times - iter      66781 and     17389 nodes.
+spx_run: Lost feasibility 10 times - iter      66845 and     17403 nodes.
+spx_run: Lost feasibility 10 times - iter      66853 and     17405 nodes.
+spx_run: Lost feasibility 10 times - iter      66855 and     17406 nodes.
+spx_run: Lost feasibility 10 times - iter      67140 and     17494 nodes.
+spx_run: Lost feasibility 10 times - iter      67171 and     17501 nodes.
+spx_run: Lost feasibility 10 times - iter      67269 and     17521 nodes.
+spx_run: Lost feasibility 10 times - iter      67315 and     17534 nodes.
+spx_run: Lost feasibility 10 times - iter      67356 and     17547 nodes.
+spx_run: Lost feasibility 10 times - iter      67438 and     17564 nodes.
+spx_run: Lost feasibility 10 times - iter      67552 and     17597 nodes.
+spx_run: Lost feasibility 10 times - iter      67629 and     17612 nodes.
+spx_run: Lost feasibility 10 times - iter      67743 and     17645 nodes.
+spx_run: Lost feasibility 10 times - iter      67822 and     17660 nodes.
+spx_run: Lost feasibility 10 times - iter      67934 and     17693 nodes.
+spx_run: Lost feasibility 10 times - iter      68011 and     17708 nodes.
+spx_run: Lost feasibility 10 times - iter      68021 and     17710 nodes.
+spx_run: Lost feasibility 10 times - iter      68439 and     17817 nodes.
+spx_run: Lost feasibility 10 times - iter      68636 and     17860 nodes.
+spx_run: Lost feasibility 10 times - iter      68644 and     17862 nodes.
+spx_run: Lost feasibility 10 times - iter      68716 and     17876 nodes.
+spx_run: Lost feasibility 10 times - iter      68724 and     17878 nodes.
+spx_run: Lost feasibility 10 times - iter      68802 and     17892 nodes.
+spx_run: Lost feasibility 10 times - iter      68810 and     17894 nodes.
+spx_run: Lost feasibility 10 times - iter      68818 and     17896 nodes.
+spx_run: Lost feasibility 10 times - iter      69188 and     18029 nodes.
+spx_run: Lost feasibility 10 times - iter      69208 and     18030 nodes.
+spx_run: Lost feasibility 10 times - iter      69255 and     18044 nodes.
+spx_run: Lost feasibility 10 times - iter      69587 and     18130 nodes.
+spx_run: Lost feasibility 10 times - iter      69856 and     18193 nodes.
+spx_run: Lost feasibility 10 times - iter      69864 and     18195 nodes.
+spx_run: Lost feasibility 10 times - iter      69924 and     18209 nodes.
+spx_run: Lost feasibility 10 times - iter      69932 and     18211 nodes.
+spx_run: Lost feasibility 10 times - iter      69998 and     18225 nodes.
+spx_run: Lost feasibility 10 times - iter      70006 and     18227 nodes.
+spx_run: Lost feasibility 10 times - iter      70092 and     18243 nodes.
+spx_run: Lost feasibility 10 times - iter      70108 and     18246 nodes.
+spx_run: Lost feasibility 10 times - iter      70112 and     18247 nodes.
+spx_run: Lost feasibility 10 times - iter      70474 and     18349 nodes.
+spx_run: Lost feasibility 10 times - iter      70579 and     18369 nodes.
+spx_run: Lost feasibility 10 times - iter      70625 and     18382 nodes.
+spx_run: Lost feasibility 10 times - iter      70666 and     18395 nodes.
+spx_run: Lost feasibility 10 times - iter      70739 and     18410 nodes.
+spx_run: Lost feasibility 10 times - iter      70772 and     18419 nodes.
+spx_run: Lost feasibility 10 times - iter      70841 and     18432 nodes.
+spx_run: Lost feasibility 10 times - iter      70872 and     18441 nodes.
+spx_run: Lost feasibility 10 times - iter      70944 and     18454 nodes.
+spx_run: Lost feasibility 10 times - iter      71035 and     18474 nodes.
+spx_run: Lost feasibility 10 times - iter      71045 and     18476 nodes.
+spx_run: Lost feasibility 10 times - iter      71323 and     18558 nodes.
+spx_run: Lost feasibility 10 times - iter      71412 and     18575 nodes.
+spx_run: Lost feasibility 10 times - iter      71606 and     18618 nodes.
+spx_run: Lost feasibility 10 times - iter      71614 and     18620 nodes.
+spx_run: Lost feasibility 10 times - iter      71686 and     18634 nodes.
+spx_run: Lost feasibility 10 times - iter      71694 and     18636 nodes.
+spx_run: Lost feasibility 10 times - iter      71772 and     18650 nodes.
+spx_run: Lost feasibility 10 times - iter      71780 and     18652 nodes.
+spx_run: Lost feasibility 10 times - iter      71788 and     18654 nodes.
+spx_run: Lost feasibility 10 times - iter      72203 and     18810 nodes.
+spx_run: Lost feasibility 10 times - iter      72293 and     18833 nodes.
+spx_run: Lost feasibility 10 times - iter      72301 and     18835 nodes.
+spx_run: Lost feasibility 10 times - iter      72349 and     18847 nodes.
+spx_run: Lost feasibility 10 times - iter      72357 and     18849 nodes.
+spx_run: Lost feasibility 10 times - iter      72415 and     18863 nodes.
+spx_run: Lost feasibility 10 times - iter      72490 and     18878 nodes.
+spx_run: Lost feasibility 10 times - iter      72494 and     18879 nodes.
+spx_run: Lost feasibility 10 times - iter      72773 and     18972 nodes.
+spx_run: Lost feasibility 10 times - iter      72888 and     18997 nodes.
+spx_run: Lost feasibility 10 times - iter      72962 and     19011 nodes.
+spx_run: Lost feasibility 10 times - iter      73035 and     19025 nodes.
+spx_run: Lost feasibility 10 times - iter      73090 and     19038 nodes.
+spx_run: Lost feasibility 10 times - iter      74597 and     19569 nodes.
+spx_run: Lost feasibility 10 times - iter      74637 and     19582 nodes.
+spx_run: Lost feasibility 10 times - iter      74647 and     19583 nodes.
+spx_run: Lost feasibility 10 times - iter      74726 and     19603 nodes.
+spx_run: Lost feasibility 10 times - iter      74733 and     19605 nodes.
+spx_run: Lost feasibility 10 times - iter      74740 and     19606 nodes.
+spx_run: Lost feasibility 10 times - iter      74748 and     19607 nodes.
+spx_run: Lost feasibility 10 times - iter      74806 and     19621 nodes.
+spx_run: Lost feasibility 10 times - iter      74813 and     19623 nodes.
+spx_run: Lost feasibility 10 times - iter      74820 and     19624 nodes.
+spx_run: Lost feasibility 10 times - iter      74825 and     19625 nodes.
+spx_run: Lost feasibility 10 times - iter      74877 and     19638 nodes.
+spx_run: Lost feasibility 10 times - iter      74890 and     19641 nodes.
+spx_run: Lost feasibility 10 times - iter      74897 and     19642 nodes.
+spx_run: Lost feasibility 10 times - iter      74903 and     19643 nodes.
+spx_run: Lost feasibility 10 times - iter      74959 and     19656 nodes.
+spx_run: Lost feasibility 10 times - iter      74972 and     19659 nodes.
+spx_run: Lost feasibility 10 times - iter      74979 and     19660 nodes.
+spx_run: Lost feasibility 10 times - iter      74984 and     19661 nodes.
+spx_run: Lost feasibility 10 times - iter      75063 and     19676 nodes.
+spx_run: Lost feasibility 10 times - iter      75091 and     19679 nodes.
+spx_run: Lost feasibility 10 times - iter      75099 and     19680 nodes.
+spx_run: Lost feasibility 10 times - iter      75110 and     19681 nodes.
+spx_run: Lost feasibility 10 times - iter      75178 and     19694 nodes.
+spx_run: Lost feasibility 10 times - iter      75192 and     19697 nodes.
+spx_run: Lost feasibility 10 times - iter      75201 and     19698 nodes.
+spx_run: Lost feasibility 10 times - iter      75209 and     19699 nodes.
+spx_run: Lost feasibility 10 times - iter      75278 and     19712 nodes.
+spx_run: Lost feasibility 10 times - iter      75291 and     19715 nodes.
+spx_run: Lost feasibility 10 times - iter      75299 and     19716 nodes.
+spx_run: Lost feasibility 10 times - iter      75307 and     19717 nodes.
+spx_run: Lost feasibility 10 times - iter      75490 and     19753 nodes.
+spx_run: Lost feasibility 10 times - iter      75559 and     19769 nodes.
+spx_run: Lost feasibility 10 times - iter      75752 and     19822 nodes.
+spx_run: Lost feasibility 10 times - iter      76125 and     19898 nodes.
+spx_run: Lost feasibility 10 times - iter      76327 and     19955 nodes.
+spx_run: Lost feasibility 10 times - iter      76822 and     20064 nodes.
+spx_run: Lost feasibility 10 times - iter      76833 and     20067 nodes.
+spx_run: Lost feasibility 10 times - iter      76845 and     20068 nodes.
+spx_run: Lost feasibility 10 times - iter      76912 and     20080 nodes.
+spx_run: Lost feasibility 10 times - iter      76943 and     20088 nodes.
+spx_run: Lost feasibility 10 times - iter      77011 and     20100 nodes.
+spx_run: Lost feasibility 10 times - iter      77019 and     20103 nodes.
+spx_run: Lost feasibility 10 times - iter      77034 and     20104 nodes.
+spx_run: Lost feasibility 10 times - iter      77133 and     20119 nodes.
+spx_run: Lost feasibility 10 times - iter      77143 and     20120 nodes.
+spx_run: Lost feasibility 10 times - iter      77165 and     20122 nodes.
+spx_run: Lost feasibility 10 times - iter      77226 and     20138 nodes.
+spx_run: Lost feasibility 10 times - iter      77246 and     20145 nodes.
+spx_run: Lost feasibility 10 times - iter      77275 and     20152 nodes.
+spx_run: Lost feasibility 10 times - iter      77299 and     20157 nodes.
+spx_run: Lost feasibility 10 times - iter      77321 and     20159 nodes.
+spx_run: Lost feasibility 10 times - iter      77338 and     20161 nodes.
+spx_run: Lost feasibility 10 times - iter      77345 and     20163 nodes.
+spx_run: Lost feasibility 10 times - iter      77372 and     20168 nodes.
+spx_run: Lost feasibility 10 times - iter      77433 and     20178 nodes.
+spx_run: Lost feasibility 10 times - iter      77454 and     20185 nodes.
+spx_run: Lost feasibility 10 times - iter      77483 and     20192 nodes.
+spx_run: Lost feasibility 10 times - iter      77500 and     20198 nodes.
+spx_run: Lost feasibility 10 times - iter      77533 and     20205 nodes.
+spx_run: Lost feasibility 10 times - iter      77604 and     20223 nodes.
+spx_run: Lost feasibility 10 times - iter      77618 and     20227 nodes.
+spx_run: Lost feasibility 10 times - iter      77626 and     20229 nodes.
+spx_run: Lost feasibility 10 times - iter      77634 and     20231 nodes.
+spx_run: Lost feasibility 10 times - iter      77648 and     20237 nodes.
+spx_run: Lost feasibility 10 times - iter      77658 and     20240 nodes.
+spx_run: Lost feasibility 10 times - iter      77666 and     20242 nodes.
+spx_run: Lost feasibility 10 times - iter      77674 and     20244 nodes.
+spx_run: Lost feasibility 10 times - iter      77688 and     20250 nodes.
+spx_run: Lost feasibility 10 times - iter      77927 and     20322 nodes.
+spx_run: Lost feasibility 10 times - iter      78170 and     20379 nodes.
+spx_run: Lost feasibility 10 times - iter      78213 and     20388 nodes.
+spx_run: Lost feasibility 10 times - iter      78222 and     20389 nodes.
+spx_run: Lost feasibility 10 times - iter      78300 and     20413 nodes.
+spx_run: Lost feasibility 10 times - iter      78324 and     20416 nodes.
+spx_run: Lost feasibility 10 times - iter      78336 and     20418 nodes.
+spx_run: Lost feasibility 10 times - iter      78353 and     20425 nodes.
+spx_run: Lost feasibility 10 times - iter      78404 and     20439 nodes.
+spx_run: Lost feasibility 10 times - iter      78418 and     20442 nodes.
+spx_run: Lost feasibility 10 times - iter      78426 and     20444 nodes.
+spx_run: Lost feasibility 10 times - iter      78440 and     20451 nodes.
+spx_run: Lost feasibility 10 times - iter      78489 and     20463 nodes.
+spx_run: Lost feasibility 10 times - iter      78505 and     20466 nodes.
+spx_run: Lost feasibility 10 times - iter      78516 and     20469 nodes.
+spx_run: Lost feasibility 10 times - iter      78533 and     20477 nodes.
+spx_run: Lost feasibility 10 times - iter      78586 and     20491 nodes.
+spx_run: Lost feasibility 10 times - iter      78604 and     20494 nodes.
+spx_run: Lost feasibility 10 times - iter      78615 and     20497 nodes.
+spx_run: Lost feasibility 10 times - iter      78630 and     20505 nodes.
+spx_run: Lost feasibility 10 times - iter      78740 and     20524 nodes.
+spx_run: Lost feasibility 10 times - iter      78749 and     20525 nodes.
+spx_run: Lost feasibility 10 times - iter      78828 and     20542 nodes.
+spx_run: Lost feasibility 10 times - iter      78834 and     20543 nodes.
+spx_run: Lost feasibility 10 times - iter      78900 and     20557 nodes.
+spx_run: Lost feasibility 10 times - iter      78932 and     20560 nodes.
+spx_run: Lost feasibility 10 times - iter      78983 and     20574 nodes.
+spx_run: Lost feasibility 10 times - iter      78994 and     20576 nodes.
+spx_run: Lost feasibility 10 times - iter      79009 and     20581 nodes.
+spx_run: Lost feasibility 10 times - iter      79021 and     20585 nodes.
+spx_run: Lost feasibility 10 times - iter      79266 and     20677 nodes.
+spx_run: Lost feasibility 10 times - iter      79275 and     20678 nodes.
+spx_run: Lost feasibility 10 times - iter      79278 and     20680 nodes.
+spx_run: Lost feasibility 10 times - iter      79287 and     20681 nodes.
+spx_run: Lost feasibility 10 times - iter      79316 and     20692 nodes.
+spx_run: Lost feasibility 10 times - iter      79322 and     20693 nodes.
+spx_run: Lost feasibility 10 times - iter      79344 and     20701 nodes.
+spx_run: Lost feasibility 10 times - iter      79350 and     20702 nodes.
+spx_run: Lost feasibility 10 times - iter      79360 and     20709 nodes.
+spx_run: Lost feasibility 10 times - iter      79374 and     20718 nodes.
+spx_run: Lost feasibility 10 times - iter      79419 and     20732 nodes.
+spx_run: Lost feasibility 10 times - iter      79435 and     20741 nodes.
+spx_run: Lost feasibility 10 times - iter      79454 and     20752 nodes.
+spx_run: Lost feasibility 10 times - iter      79470 and     20761 nodes.
+spx_run: Lost feasibility 10 times - iter      79829 and     20896 nodes.
+spx_run: Lost feasibility 10 times - iter      79835 and     20899 nodes.
+spx_run: Lost feasibility 10 times - iter      79838 and     20901 nodes.
+spx_run: Lost feasibility 10 times - iter      79845 and     20902 nodes.
+spx_run: Lost feasibility 10 times - iter      79902 and     20922 nodes.
+spx_run: Lost feasibility 10 times - iter      79911 and     20923 nodes.
+spx_run: Lost feasibility 10 times - iter      79917 and     20924 nodes.
+spx_run: Lost feasibility 10 times - iter      79960 and     20932 nodes.
+spx_run: Lost feasibility 10 times - iter      79965 and     20934 nodes.
+spx_run: Lost feasibility 10 times - iter      80010 and     20949 nodes.
+spx_run: Lost feasibility 10 times - iter      80356 and     21080 nodes.
+spx_run: Lost feasibility 10 times - iter      80362 and     21083 nodes.
+spx_run: Lost feasibility 10 times - iter      80365 and     21085 nodes.
+spx_run: Lost feasibility 10 times - iter      80372 and     21086 nodes.
+spx_run: Lost feasibility 10 times - iter      80425 and     21099 nodes.
+spx_run: Lost feasibility 10 times - iter      80431 and     21100 nodes.
+spx_run: Lost feasibility 10 times - iter      80440 and     21101 nodes.
+spx_run: Lost feasibility 10 times - iter      80446 and     21102 nodes.
+spx_run: Lost feasibility 10 times - iter      80489 and     21110 nodes.
+spx_run: Lost feasibility 10 times - iter      80494 and     21112 nodes.
+spx_run: Lost feasibility 10 times - iter      80539 and     21127 nodes.
+spx_run: Lost feasibility 10 times - iter      83373 and     21971 nodes.
+spx_run: Lost feasibility 10 times - iter      83419 and     21986 nodes.
+spx_run: Lost feasibility 10 times - iter      83432 and     21989 nodes.
+spx_run: Lost feasibility 10 times - iter      83525 and     22026 nodes.
+spx_run: Lost feasibility 10 times - iter      83538 and     22029 nodes.
+spx_run: Lost feasibility 10 times - iter      84795 and     22444 nodes.
+spx_run: Lost feasibility 10 times - iter      84801 and     22445 nodes.
+spx_run: Lost feasibility 10 times - iter      84804 and     22447 nodes.
+spx_run: Lost feasibility 10 times - iter      84810 and     22448 nodes.
+spx_run: Lost feasibility 10 times - iter      84841 and     22460 nodes.
+spx_run: Lost feasibility 10 times - iter      84864 and     22469 nodes.
+spx_run: Lost feasibility 10 times - iter      84875 and     22476 nodes.
+spx_run: Lost feasibility 10 times - iter      84890 and     22485 nodes.
+spx_run: Lost feasibility 10 times - iter      84929 and     22497 nodes.
+spx_run: Lost feasibility 10 times - iter      84937 and     22502 nodes.
+spx_run: Lost feasibility 10 times - iter      84949 and     22509 nodes.
+spx_run: Lost feasibility 10 times - iter      84956 and     22514 nodes.
+spx_run: Lost feasibility 10 times - iter      85252 and     22633 nodes.
+spx_run: Lost feasibility 10 times - iter      85258 and     22636 nodes.
+spx_run: Lost feasibility 10 times - iter      85261 and     22638 nodes.
+spx_run: Lost feasibility 10 times - iter      85265 and     22639 nodes.
+spx_run: Lost feasibility 10 times - iter      85325 and     22659 nodes.
+spx_run: Lost feasibility 10 times - iter      85350 and     22664 nodes.
+spx_run: Lost feasibility 10 times - iter      85353 and     22665 nodes.
+spx_run: Lost feasibility 10 times - iter      85390 and     22673 nodes.
+spx_run: Lost feasibility 10 times - iter      85396 and     22675 nodes.
+spx_run: Lost feasibility 10 times - iter      85440 and     22690 nodes.
+spx_run: Lost feasibility 10 times - iter      85749 and     22809 nodes.
+spx_run: Lost feasibility 10 times - iter      85755 and     22812 nodes.
+spx_run: Lost feasibility 10 times - iter      85758 and     22814 nodes.
+spx_run: Lost feasibility 10 times - iter      85762 and     22815 nodes.
+spx_run: Lost feasibility 10 times - iter      85824 and     22834 nodes.
+spx_run: Lost feasibility 10 times - iter      85827 and     22835 nodes.
+spx_run: Lost feasibility 10 times - iter      85866 and     22843 nodes.
+spx_run: Lost feasibility 10 times - iter      85872 and     22845 nodes.
+spx_run: Lost feasibility 10 times - iter      85911 and     22858 nodes.
+spx_run: Lost feasibility 10 times - iter      88140 and     23484 nodes.
+spx_run: Lost feasibility 10 times - iter      88259 and     23520 nodes.
+spx_run: Lost feasibility 10 times - iter      88437 and     23565 nodes.
+spx_run: Lost feasibility 10 times - iter      88467 and     23572 nodes.
+spx_run: Lost feasibility 10 times - iter      88523 and     23580 nodes.
+spx_run: Lost feasibility 10 times - iter      88560 and     23587 nodes.
+spx_run: Lost feasibility 10 times - iter      88912 and     23687 nodes.
+spx_run: Lost feasibility 10 times - iter      89142 and     23775 nodes.
+spx_run: Lost feasibility 10 times - iter      89152 and     23776 nodes.
+spx_run: Lost feasibility 10 times - iter      89502 and     23893 nodes.
+spx_run: Lost feasibility 10 times - iter      90131 and     24110 nodes.
+spx_run: Lost feasibility 10 times - iter      91331 and     24472 nodes.
+spx_run: Lost feasibility 10 times - iter      91373 and     24477 nodes.
+spx_run: Lost feasibility 10 times - iter      92969 and     24839 nodes.
+spx_run: Lost feasibility 10 times - iter      93048 and     24867 nodes.
+spx_run: Lost feasibility 10 times - iter      93099 and     24873 nodes.
+spx_run: Lost feasibility 10 times - iter      93194 and     24898 nodes.
+spx_run: Lost feasibility 10 times - iter      94312 and     25206 nodes.
+spx_run: Lost feasibility 10 times - iter      94329 and     25212 nodes.
+spx_run: Lost feasibility 10 times - iter      94353 and     25214 nodes.
+spx_run: Lost feasibility 10 times - iter      94374 and     25219 nodes.
+spx_run: Lost feasibility 10 times - iter      94490 and     25248 nodes.
+spx_run: Lost feasibility 10 times - iter      94507 and     25254 nodes.
+spx_run: Lost feasibility 10 times - iter      94522 and     25256 nodes.
+spx_run: Lost feasibility 10 times - iter      94540 and     25261 nodes.
+spx_run: Lost feasibility 10 times - iter      94641 and     25289 nodes.
+spx_run: Lost feasibility 10 times - iter      94658 and     25295 nodes.
+spx_run: Lost feasibility 10 times - iter      94673 and     25297 nodes.
+spx_run: Lost feasibility 10 times - iter      94691 and     25302 nodes.
+spx_run: Lost feasibility 10 times - iter      95845 and     25673 nodes.
+spx_run: Lost feasibility 10 times - iter      95850 and     25675 nodes.
+spx_run: Lost feasibility 10 times - iter      95867 and     25676 nodes.
+spx_run: Lost feasibility 10 times - iter      96434 and     25883 nodes.
+spx_run: Lost feasibility 10 times - iter      96445 and     25884 nodes.
+spx_run: Lost feasibility 10 times - iter      96448 and     25886 nodes.
+spx_run: Lost feasibility 10 times - iter      96459 and     25887 nodes.
+spx_run: Lost feasibility 10 times - iter      96502 and     25903 nodes.
+spx_run: Lost feasibility 10 times - iter      96534 and     25916 nodes.
+spx_run: Lost feasibility 10 times - iter      96549 and     25924 nodes.
+spx_run: Lost feasibility 10 times - iter      96559 and     25926 nodes.
+spx_run: Lost feasibility 10 times - iter      96578 and     25936 nodes.
+spx_run: Lost feasibility 10 times - iter      96589 and     25938 nodes.
+spx_run: Lost feasibility 10 times - iter      96612 and     25948 nodes.
+spx_run: Lost feasibility 10 times - iter      96624 and     25950 nodes.
+spx_run: Lost feasibility 10 times - iter      96652 and     25960 nodes.
+spx_run: Lost feasibility 10 times - iter      96665 and     25962 nodes.
+spx_run: Lost feasibility 10 times - iter      96694 and     25972 nodes.
+spx_run: Lost feasibility 10 times - iter      96705 and     25974 nodes.
+spx_run: Lost feasibility 10 times - iter      96741 and     25984 nodes.
+spx_run: Lost feasibility 10 times - iter      96752 and     25986 nodes.
+spx_run: Lost feasibility 10 times - iter      96790 and     25996 nodes.
+spx_run: Lost feasibility 10 times - iter      96801 and     25998 nodes.
+spx_run: Lost feasibility 10 times - iter      96841 and     26008 nodes.
+spx_run: Lost feasibility 10 times - iter      96852 and     26010 nodes.
+spx_run: Lost feasibility 10 times - iter      96878 and     26015 nodes.
+spx_run: Lost feasibility 10 times - iter      96972 and     26045 nodes.
+spx_run: Lost feasibility 10 times - iter      96993 and     26055 nodes.
+spx_run: Lost feasibility 10 times - iter      97003 and     26057 nodes.
+spx_run: Lost feasibility 10 times - iter      97022 and     26067 nodes.
+spx_run: Lost feasibility 10 times - iter      97033 and     26069 nodes.
+spx_run: Lost feasibility 10 times - iter      97056 and     26079 nodes.
+spx_run: Lost feasibility 10 times - iter      97068 and     26081 nodes.
+spx_run: Lost feasibility 10 times - iter      97096 and     26091 nodes.
+spx_run: Lost feasibility 10 times - iter      97109 and     26093 nodes.
+spx_run: Lost feasibility 10 times - iter      97138 and     26103 nodes.
+spx_run: Lost feasibility 10 times - iter      97149 and     26105 nodes.
+spx_run: Lost feasibility 10 times - iter      97185 and     26115 nodes.
+spx_run: Lost feasibility 10 times - iter      97196 and     26117 nodes.
+spx_run: Lost feasibility 10 times - iter      97234 and     26127 nodes.
+spx_run: Lost feasibility 10 times - iter      97245 and     26129 nodes.
+spx_run: Lost feasibility 10 times - iter      97285 and     26139 nodes.
+spx_run: Lost feasibility 10 times - iter      97296 and     26141 nodes.
+spx_run: Lost feasibility 10 times - iter      97322 and     26146 nodes.
+spx_run: Lost feasibility 10 times - iter      97416 and     26176 nodes.
+spx_run: Lost feasibility 10 times - iter      98668 and     26623 nodes.
+spx_run: Lost feasibility 10 times - iter      98725 and     26636 nodes.
+spx_run: Lost feasibility 10 times - iter      98758 and     26643 nodes.
+spx_run: Lost feasibility 10 times - iter      98842 and     26660 nodes.
+spx_run: Lost feasibility 10 times - iter      99034 and     26690 nodes.
+spx_run: Lost feasibility 10 times - iter      99036 and     26691 nodes.
+spx_run: Lost feasibility 10 times - iter      99099 and     26709 nodes.
+spx_run: Lost feasibility 10 times - iter      99110 and     26710 nodes.
+spx_run: Lost feasibility 10 times - iter      99113 and     26712 nodes.
+spx_run: Lost feasibility 10 times - iter      99124 and     26713 nodes.
+spx_run: Lost feasibility 10 times - iter      99168 and     26731 nodes.
+spx_run: Lost feasibility 10 times - iter      99203 and     26746 nodes.
+spx_run: Lost feasibility 10 times - iter      99218 and     26754 nodes.
+spx_run: Lost feasibility 10 times - iter      99228 and     26756 nodes.
+spx_run: Lost feasibility 10 times - iter      99247 and     26766 nodes.
+spx_run: Lost feasibility 10 times - iter      99258 and     26768 nodes.
+spx_run: Lost feasibility 10 times - iter      99281 and     26778 nodes.
+spx_run: Lost feasibility 10 times - iter      99293 and     26780 nodes.
+spx_run: Lost feasibility 10 times - iter      99321 and     26790 nodes.
+spx_run: Lost feasibility 10 times - iter      99334 and     26792 nodes.
+spx_run: Lost feasibility 10 times - iter      99363 and     26802 nodes.
+spx_run: Lost feasibility 10 times - iter      99374 and     26804 nodes.
+spx_run: Lost feasibility 10 times - iter      99410 and     26814 nodes.
+spx_run: Lost feasibility 10 times - iter      99421 and     26816 nodes.
+spx_run: Lost feasibility 10 times - iter      99459 and     26826 nodes.
+spx_run: Lost feasibility 10 times - iter      99470 and     26828 nodes.
+spx_run: Lost feasibility 10 times - iter      99510 and     26838 nodes.
+spx_run: Lost feasibility 10 times - iter      99521 and     26840 nodes.
+spx_run: Lost feasibility 10 times - iter      99547 and     26845 nodes.
+spx_run: Lost feasibility 10 times - iter      99664 and     26887 nodes.
+spx_run: Lost feasibility 10 times - iter      99674 and     26889 nodes.
+spx_run: Lost feasibility 10 times - iter      99693 and     26899 nodes.
+spx_run: Lost feasibility 10 times - iter      99704 and     26901 nodes.
+spx_run: Lost feasibility 10 times - iter      99727 and     26911 nodes.
+spx_run: Lost feasibility 10 times - iter      99739 and     26913 nodes.
+spx_run: Lost feasibility 10 times - iter      99767 and     26923 nodes.
+spx_run: Lost feasibility 10 times - iter      99780 and     26925 nodes.
+spx_run: Lost feasibility 10 times - iter      99809 and     26935 nodes.
+spx_run: Lost feasibility 10 times - iter      99820 and     26937 nodes.
+spx_run: Lost feasibility 10 times - iter      99856 and     26947 nodes.
+spx_run: Lost feasibility 10 times - iter      99867 and     26949 nodes.
+spx_run: Lost feasibility 10 times - iter      99905 and     26959 nodes.
+spx_run: Lost feasibility 10 times - iter      99916 and     26961 nodes.
+spx_run: Lost feasibility 10 times - iter      99956 and     26971 nodes.
+spx_run: Lost feasibility 10 times - iter      99967 and     26973 nodes.
+spx_run: Lost feasibility 10 times - iter      99993 and     26978 nodes.
+spx_run: Lost feasibility 10 times - iter     100127 and     27022 nodes.
+spx_run: Lost feasibility 10 times - iter     100173 and     27035 nodes.
+spx_run: Lost feasibility 10 times - iter     100228 and     27052 nodes.
+spx_run: Lost feasibility 10 times - iter     100279 and     27065 nodes.
+spx_run: Lost feasibility 10 times - iter     100592 and     27146 nodes.
+spx_run: Lost feasibility 10 times - iter     100881 and     27208 nodes.
+spx_run: Lost feasibility 10 times - iter     101081 and     27255 nodes.
+spx_run: Lost feasibility 10 times - iter     101766 and     27438 nodes.
+spx_run: Lost feasibility 10 times - iter     102271 and     27640 nodes.
+spx_run: Lost feasibility 10 times - iter     102559 and     27758 nodes.
+spx_run: Lost feasibility 10 times - iter     102826 and     27875 nodes.
+spx_run: Lost feasibility 10 times - iter     103602 and     28148 nodes.
+spx_run: Lost feasibility 10 times - iter     103624 and     28150 nodes.
+spx_run: Lost feasibility 10 times - iter     103644 and     28152 nodes.
+spx_run: Lost feasibility 10 times - iter     103808 and     28182 nodes.
+spx_run: Lost feasibility 10 times - iter     103810 and     28183 nodes.
+spx_run: Lost feasibility 10 times - iter     103875 and     28201 nodes.
+spx_run: Lost feasibility 10 times - iter     103886 and     28202 nodes.
+spx_run: Lost feasibility 10 times - iter     103889 and     28204 nodes.
+spx_run: Lost feasibility 10 times - iter     103900 and     28205 nodes.
+spx_run: Lost feasibility 10 times - iter     103944 and     28223 nodes.
+spx_run: Lost feasibility 10 times - iter     103979 and     28238 nodes.
+spx_run: Lost feasibility 10 times - iter     103994 and     28246 nodes.
+spx_run: Lost feasibility 10 times - iter     104004 and     28248 nodes.
+spx_run: Lost feasibility 10 times - iter     104023 and     28258 nodes.
+spx_run: Lost feasibility 10 times - iter     104034 and     28260 nodes.
+spx_run: Lost feasibility 10 times - iter     104057 and     28270 nodes.
+spx_run: Lost feasibility 10 times - iter     104069 and     28272 nodes.
+spx_run: Lost feasibility 10 times - iter     104097 and     28282 nodes.
+spx_run: Lost feasibility 10 times - iter     104110 and     28284 nodes.
+spx_run: Lost feasibility 10 times - iter     104138 and     28294 nodes.
+spx_run: Lost feasibility 10 times - iter     104147 and     28296 nodes.
+spx_run: Lost feasibility 10 times - iter     104183 and     28306 nodes.
+spx_run: Lost feasibility 10 times - iter     104192 and     28308 nodes.
+spx_run: Lost feasibility 10 times - iter     104230 and     28318 nodes.
+spx_run: Lost feasibility 10 times - iter     104241 and     28320 nodes.
+spx_run: Lost feasibility 10 times - iter     104281 and     28330 nodes.
+spx_run: Lost feasibility 10 times - iter     104290 and     28332 nodes.
+spx_run: Lost feasibility 10 times - iter     104316 and     28337 nodes.
+spx_run: Lost feasibility 10 times - iter     104433 and     28379 nodes.
+spx_run: Lost feasibility 10 times - iter     104443 and     28381 nodes.
+spx_run: Lost feasibility 10 times - iter     104462 and     28391 nodes.
+spx_run: Lost feasibility 10 times - iter     104473 and     28393 nodes.
+spx_run: Lost feasibility 10 times - iter     104496 and     28403 nodes.
+spx_run: Lost feasibility 10 times - iter     104508 and     28405 nodes.
+spx_run: Lost feasibility 10 times - iter     104536 and     28415 nodes.
+spx_run: Lost feasibility 10 times - iter     104549 and     28417 nodes.
+spx_run: Lost feasibility 10 times - iter     104577 and     28427 nodes.
+spx_run: Lost feasibility 10 times - iter     104586 and     28429 nodes.
+spx_run: Lost feasibility 10 times - iter     104622 and     28439 nodes.
+spx_run: Lost feasibility 10 times - iter     104631 and     28441 nodes.
+spx_run: Lost feasibility 10 times - iter     104669 and     28451 nodes.
+spx_run: Lost feasibility 10 times - iter     104680 and     28453 nodes.
+spx_run: Lost feasibility 10 times - iter     104720 and     28463 nodes.
+spx_run: Lost feasibility 10 times - iter     104729 and     28465 nodes.
+spx_run: Lost feasibility 10 times - iter     104755 and     28470 nodes.
+spx_run: Lost feasibility 10 times - iter     105142 and     28599 nodes.
+spx_run: Lost feasibility 10 times - iter     105153 and     28604 nodes.
+spx_run: Lost feasibility 10 times - iter     105170 and     28611 nodes.
+spx_run: Lost feasibility 10 times - iter     105178 and     28616 nodes.
+spx_run: Lost feasibility 10 times - iter     105223 and     28631 nodes.
+spx_run: Lost feasibility 10 times - iter     105277 and     28654 nodes.
+spx_run: Lost feasibility 10 times - iter     105299 and     28667 nodes.
+spx_run: Lost feasibility 10 times - iter     105327 and     28678 nodes.
+spx_run: Lost feasibility 10 times - iter     105381 and     28701 nodes.
+spx_run: Lost feasibility 10 times - iter     105403 and     28714 nodes.
+spx_run: Lost feasibility 10 times - iter     105438 and     28727 nodes.
+spx_run: Lost feasibility 10 times - iter     105483 and     28753 nodes.
+spx_run: Lost feasibility 10 times - iter     105498 and     28762 nodes.
+spx_run: Lost feasibility 10 times - iter     105543 and     28788 nodes.
+spx_run: Lost feasibility 10 times - iter     105598 and     28807 nodes.
+spx_run: Lost feasibility 10 times - iter     105611 and     28812 nodes.
+spx_run: Lost feasibility 10 times - iter     105632 and     28819 nodes.
+spx_run: Lost feasibility 10 times - iter     105684 and     28841 nodes.
+spx_run: Lost feasibility 10 times - iter     105707 and     28850 nodes.
+spx_run: Lost feasibility 10 times - iter     105759 and     28872 nodes.
+spx_run: Lost feasibility 10 times - iter     105819 and     28891 nodes.
+spx_run: Lost feasibility 10 times - iter     105873 and     28913 nodes.
+spx_run: Lost feasibility 10 times - iter     105896 and     28924 nodes.
+spx_run: Lost feasibility 10 times - iter     105950 and     28946 nodes.
+spx_run: Lost feasibility 10 times - iter     105982 and     28959 nodes.
+spx_run: Lost feasibility 10 times - iter     106023 and     28981 nodes.
+spx_run: Lost feasibility 10 times - iter     106038 and     28990 nodes.
+spx_run: Lost feasibility 10 times - iter     106079 and     29012 nodes.
+spx_run: Lost feasibility 10 times - iter     106135 and     29031 nodes.
+spx_run: Lost feasibility 10 times - iter     106184 and     29053 nodes.
+spx_run: Lost feasibility 10 times - iter     106213 and     29064 nodes.
+spx_run: Lost feasibility 10 times - iter     106262 and     29086 nodes.
+spx_run: Lost feasibility 10 times - iter     106301 and     29099 nodes.
+spx_run: Lost feasibility 10 times - iter     106343 and     29118 nodes.
+spx_run: Lost feasibility 10 times - iter     106383 and     29139 nodes.
+spx_run: Lost feasibility 10 times - iter     106398 and     29148 nodes.
+spx_run: Lost feasibility 10 times - iter     106440 and     29167 nodes.
+spx_run: Lost feasibility 10 times - iter     106480 and     29188 nodes.
+spx_run: Lost feasibility 10 times - iter     106717 and     29273 nodes.
+spx_run: Lost feasibility 10 times - iter     106746 and     29283 nodes.
+spx_run: Lost feasibility 10 times - iter     106762 and     29292 nodes.
+spx_run: Lost feasibility 10 times - iter     106791 and     29302 nodes.
+spx_run: Lost feasibility 10 times - iter     106819 and     29313 nodes.
+spx_run: Lost feasibility 10 times - iter     106844 and     29323 nodes.
+spx_run: Lost feasibility 10 times - iter     106860 and     29332 nodes.
+spx_run: Lost feasibility 10 times - iter     106885 and     29342 nodes.
+spx_run: Lost feasibility 10 times - iter     107012 and     29386 nodes.
+spx_run: Lost feasibility 10 times - iter     109638 and     30284 nodes.
+spx_run: Lost feasibility 10 times - iter     110585 and     30680 nodes.
+spx_run: Lost feasibility 10 times - iter     114365 and     31961 nodes.
+spx_run: Lost feasibility 10 times - iter     115493 and     32337 nodes.
+spx_run: Lost feasibility 10 times - iter     115570 and     32362 nodes.
+spx_run: Lost feasibility 10 times - iter     115593 and     32368 nodes.
+spx_run: Lost feasibility 10 times - iter     115632 and     32378 nodes.
+spx_run: Lost feasibility 10 times - iter     115969 and     32479 nodes.
+spx_run: Lost feasibility 10 times - iter     116047 and     32507 nodes.
+spx_run: Lost feasibility 10 times - iter     116071 and     32513 nodes.
+spx_run: Lost feasibility 10 times - iter     116129 and     32528 nodes.
+spx_run: Lost feasibility 10 times - iter     116458 and     32628 nodes.
+spx_run: Lost feasibility 10 times - iter     116515 and     32651 nodes.
+spx_run: Lost feasibility 10 times - iter     116539 and     32657 nodes.
+spx_run: Lost feasibility 10 times - iter     116818 and     32750 nodes.
+spx_run: Lost feasibility 10 times - iter     117222 and     32884 nodes.
+spx_run: Lost feasibility 10 times - iter     117239 and     32890 nodes.
+spx_run: Lost feasibility 10 times - iter     117277 and     32900 nodes.
+spx_run: Lost feasibility 10 times - iter     117501 and     32974 nodes.
+spx_run: Lost feasibility 10 times - iter     118067 and     33152 nodes.
+spx_run: Lost feasibility 10 times - iter     118100 and     33162 nodes.
+spx_run: Lost feasibility 10 times - iter     118756 and     33376 nodes.
+spx_run: Lost feasibility 10 times - iter     119235 and     33528 nodes.
+spx_run: Lost feasibility 10 times - iter     119291 and     33534 nodes.
+spx_run: Lost feasibility 10 times - iter     119328 and     33543 nodes.
+spx_run: Lost feasibility 10 times - iter     119343 and     33547 nodes.
+spx_run: Lost feasibility 10 times - iter     119398 and     33554 nodes.
+spx_run: Lost feasibility 10 times - iter     119600 and     33607 nodes.
+spx_run: Lost feasibility 10 times - iter     119847 and     33667 nodes.
+spx_run: Lost feasibility 10 times - iter     120098 and     33725 nodes.
+spx_run: Lost feasibility 10 times - iter     120209 and     33753 nodes.
+spx_run: Lost feasibility 10 times - iter     120797 and     33949 nodes.
+spx_run: Lost feasibility 10 times - iter     120850 and     33964 nodes.
+spx_run: Lost feasibility 10 times - iter     120869 and     33968 nodes.
+spx_run: Lost feasibility 10 times - iter     121976 and     34344 nodes.
+spx_run: Lost feasibility 10 times - iter     122323 and     34454 nodes.
+spx_run: Lost feasibility 10 times - iter     122340 and     34460 nodes.
+spx_run: Lost feasibility 10 times - iter     122377 and     34470 nodes.
+spx_run: Lost feasibility 10 times - iter     122600 and     34540 nodes.
+spx_run: Lost feasibility 10 times - iter     122637 and     34544 nodes.
+spx_run: Lost feasibility 10 times - iter     122656 and     34546 nodes.
+spx_run: Lost feasibility 10 times - iter     122677 and     34549 nodes.
+spx_run: Lost feasibility 10 times - iter     123021 and     34656 nodes.
+spx_run: Lost feasibility 10 times - iter     123087 and     34662 nodes.
+spx_run: Lost feasibility 10 times - iter     123122 and     34669 nodes.
+spx_run: Lost feasibility 10 times - iter     123143 and     34673 nodes.
+spx_run: Lost feasibility 10 times - iter     123192 and     34680 nodes.
+spx_run: Lost feasibility 10 times - iter     123262 and     34693 nodes.
+spx_run: Lost feasibility 10 times - iter     123358 and     34719 nodes.
+spx_run: Lost feasibility 10 times - iter     123569 and     34767 nodes.
+spx_run: Lost feasibility 10 times - iter     123604 and     34770 nodes.
+spx_run: Lost feasibility 10 times - iter     123708 and     34795 nodes.
+spx_run: Lost feasibility 10 times - iter     124134 and     34909 nodes.
+spx_run: Lost feasibility 10 times - iter     124159 and     34913 nodes.
+spx_run: Lost feasibility 10 times - iter     124302 and     34954 nodes.
+spx_run: Lost feasibility 10 times - iter     124320 and     34958 nodes.
+spx_run: Lost feasibility 10 times - iter     125548 and     35357 nodes.
+spx_run: Lost feasibility 10 times - iter     125565 and     35363 nodes.
+spx_run: Lost feasibility 10 times - iter     126891 and     35787 nodes.
+spx_run: Lost feasibility 10 times - iter     126973 and     35797 nodes.
+spx_run: Lost feasibility 10 times - iter     127008 and     35804 nodes.
+spx_run: Lost feasibility 10 times - iter     127023 and     35808 nodes.
+spx_run: Lost feasibility 10 times - iter     127061 and     35815 nodes.
+spx_run: Lost feasibility 10 times - iter     127123 and     35828 nodes.
+spx_run: Lost feasibility 10 times - iter     127442 and     35909 nodes.
+spx_run: Lost feasibility 10 times - iter     127539 and     35934 nodes.
+spx_run: Lost feasibility 10 times - iter     127888 and     36036 nodes.
+spx_run: Lost feasibility 10 times - iter     127913 and     36040 nodes.
+spx_run: Lost feasibility 10 times - iter     128056 and     36081 nodes.
+spx_run: Lost feasibility 10 times - iter     128074 and     36085 nodes.
+spx_run: Lost feasibility 10 times - iter     128821 and     36311 nodes.
+spx_run: Lost feasibility 10 times - iter     128860 and     36321 nodes.
+spx_run: Lost feasibility 10 times - iter     129099 and     36379 nodes.
+spx_run: Lost feasibility 10 times - iter     129130 and     36385 nodes.
+spx_run: Lost feasibility 10 times - iter     129975 and     36636 nodes.
+spx_run: Lost feasibility 10 times - iter     130727 and     36869 nodes.
+spx_run: Lost feasibility 10 times - iter     130906 and     36921 nodes.
+spx_run: Lost feasibility 10 times - iter     130933 and     36925 nodes.
+spx_run: Lost feasibility 10 times - iter     131515 and     37088 nodes.
+spx_run: Lost feasibility 10 times - iter     132219 and     37298 nodes.
+spx_run: Lost feasibility 10 times - iter     132246 and     37302 nodes.
+spx_run: Lost feasibility 10 times - iter     134252 and     37908 nodes.
+spx_run: Lost feasibility 10 times - iter     134281 and     37912 nodes.
+spx_run: Lost feasibility 10 times - iter     135035 and     38091 nodes.
+spx_run: Lost feasibility 10 times - iter     135913 and     38310 nodes.
+spx_run: Lost feasibility 10 times - iter     135940 and     38314 nodes.
+spx_run: Lost feasibility 10 times - iter     136537 and     38481 nodes.
+Suboptimal solution
+
+Value of objective function: 7635012.86688637
+\lp_solve\miplib3\bell3a.mps 
+Suboptimal solution
+
+Value of objective function: 1541257.66200000
+\lp_solve\miplib3\bell5.mps 
+Suboptimal solution
+
+Value of objective function: 9144055.38304000
+\lp_solve\miplib3\blend2.mps 
+Suboptimal solution
+
+Value of objective function: 10.85059200
+\lp_solve\miplib3\cap6000.mps 
+Timeout
+\lp_solve\miplib3\dano3mip.mps 
+Timeout
+\lp_solve\miplib3\danoint.mps 
+Timeout
+\lp_solve\miplib3\dcmulti.mps 
+
+Value of objective function: 188182.00000000
+\lp_solve\miplib3\dsbmip.mps 
+Unconstrained row BBC10006 ignored
+Further messages of this kind will be suppressed
+
+Value of objective function: -305.19817501
+\lp_solve\miplib3\egout.mps 
+
+Value of objective function: 568.10070000
+\lp_solve\miplib3\enigma.mps 
+
+Value of objective function: 0
+\lp_solve\miplib3\fast0507.mps 
+Timeout
+\lp_solve\miplib3\fiber.mps 
+Suboptimal solution
+
+Value of objective function: 1535303.43000000
+\lp_solve\miplib3\fixnet6.mps 
+Suboptimal solution
+
+Value of objective function: 8945.00000000
+\lp_solve\miplib3\flugpl.mps 
+
+Value of objective function: 1201500.00000000
+\lp_solve\miplib3\gen.mps 
+Suboptimal solution
+
+Value of objective function: 112417.64381898
+\lp_solve\miplib3\gesa2.mps 
+Suboptimal solution
+
+Value of objective function: 25802941.85136859
+\lp_solve\miplib3\gesa2_o.mps 
+Suboptimal solution
+
+Value of objective function: 25815028.94471832
+\lp_solve\miplib3\gesa3.mps 
+
+Value of objective function: 27991042.64839482
+\lp_solve\miplib3\gesa3_o.mps 
+
+Value of objective function: 27991042.64839482
+\lp_solve\miplib3\gt2.mps 
+Suboptimal solution
+
+Value of objective function: 87136.00000000
+\lp_solve\miplib3\harp2.mps 
+spx_run: Lost feasibility 10 times - iter     108062 and     13577 nodes.
+spx_run: Lost feasibility 10 times - iter     109723 and     13835 nodes.
+spx_run: Lost feasibility 10 times - iter     110092 and     13897 nodes.
+spx_run: Lost feasibility 10 times - iter     110314 and     13930 nodes.
+spx_run: Lost feasibility 10 times - iter     111318 and     14131 nodes.
+spx_run: Lost feasibility 10 times - iter     111488 and     14159 nodes.
+spx_run: Lost feasibility 10 times - iter     111567 and     14172 nodes.
+spx_run: Lost feasibility 10 times - iter     112721 and     14425 nodes.
+spx_run: Lost feasibility 10 times - iter     113097 and     14485 nodes.
+spx_run: Lost feasibility 10 times - iter     113324 and     14520 nodes.
+spx_run: Lost feasibility 10 times - iter     137099 and     19175 nodes.
+spx_run: Lost feasibility 10 times - iter     175373 and     25944 nodes.
+spx_run: Lost feasibility 10 times - iter     175395 and     25946 nodes.
+spx_run: Lost feasibility 10 times - iter     229692 and     36937 nodes.
+spx_run: Lost feasibility 10 times - iter     229713 and     36939 nodes.
+spx_run: Lost feasibility 10 times - iter     229830 and     36969 nodes.
+spx_run: Lost feasibility 10 times - iter     229850 and     36971 nodes.
+spx_run: Lost feasibility 10 times - iter     229952 and     36997 nodes.
+spx_run: Lost feasibility 10 times - iter     229973 and     36999 nodes.
+spx_run: Lost feasibility 10 times - iter     230088 and     37029 nodes.
+spx_run: Lost feasibility 10 times - iter     230109 and     37031 nodes.
+spx_run: Lost feasibility 10 times - iter     230224 and     37061 nodes.
+spx_run: Lost feasibility 10 times - iter     230245 and     37063 nodes.
+Suboptimal solution
+
+Value of objective function: -70467741.00000000
+\lp_solve\miplib3\khb05250.mps 
+
+Value of objective function: 106940225.99999994
+\lp_solve\miplib3\l152lav.mps 
+
+Value of objective function: 4722.00000000
+\lp_solve\miplib3\lseu.mps 
+
+Value of objective function: 1120.00000000
+\lp_solve\miplib3\miplib.cat 
+Unrecognized MPS line 1: This catalogue contains a three-part index of the models contained in
+
+\lp_solve\miplib3\miplib3.zip 
+Unrecognized MPS line 1: PK
+\lp_solve\miplib3\misc03.mps 
+
+Value of objective function: 3360.00000000
+\lp_solve\miplib3\misc06.mps 
+
+Value of objective function: 12850.86073738
+\lp_solve\miplib3\misc07.mps 
+
+Value of objective function: 2810.00000000
+\lp_solve\miplib3\mitre.mps 
+Suboptimal solution
+
+Value of objective function: 115230.00000000
+\lp_solve\miplib3\mod008.mps 
+
+Value of objective function: 307.00000000
+\lp_solve\miplib3\mod010.mps 
+
+Value of objective function: 6548.00000000
+\lp_solve\miplib3\mod011.mps 
+Unconstrained row R3. ignored
+Further messages of this kind will be suppressed
+Suboptimal solution
+
+Value of objective function: -47633571.64098341
+\lp_solve\miplib3\modglob.mps 
+Suboptimal solution
+
+Value of objective function: 20742697.18679706
+\lp_solve\miplib3\mps_format 
+Unrecognized MPS line 2: MPS input format was originally introduced by IBM to express linear 
+
+\lp_solve\miplib3\noswot.mps 
+spx_run: Lost feasibility 10 times - iter      29984 and      8289 nodes.
+spx_run: Lost feasibility 10 times - iter      31964 and      8753 nodes.
+spx_run: Lost feasibility 10 times - iter      53163 and     14721 nodes.
+spx_run: Lost feasibility 10 times - iter      53194 and     14726 nodes.
+spx_run: Lost feasibility 10 times - iter      53602 and     14809 nodes.
+spx_run: Lost feasibility 10 times - iter      53635 and     14814 nodes.
+spx_run: Lost feasibility 10 times - iter      62995 and     17059 nodes.
+spx_run: Lost feasibility 10 times - iter      63249 and     17121 nodes.
+spx_run: Lost feasibility 10 times - iter      72504 and     19114 nodes.
+spx_run: Lost feasibility 10 times - iter      73575 and     19407 nodes.
+spx_run: Lost feasibility 10 times - iter      74303 and     19642 nodes.
+spx_run: Lost feasibility 10 times - iter      75264 and     19917 nodes.
+spx_run: Lost feasibility 10 times - iter     127405 and     30963 nodes.
+spx_run: Lost feasibility 10 times - iter     184836 and     42963 nodes.
+spx_run: Lost feasibility 10 times - iter     261487 and     59098 nodes.
+spx_run: Lost feasibility 10 times - iter     263672 and     59488 nodes.
+spx_run: Lost feasibility 10 times - iter     275624 and     62259 nodes.
+spx_run: Lost feasibility 10 times - iter     277221 and     62751 nodes.
+spx_run: Lost feasibility 10 times - iter     277264 and     62770 nodes.
+spx_run: Lost feasibility 10 times - iter     282339 and     63886 nodes.
+spx_run: Lost feasibility 10 times - iter     319325 and     72219 nodes.
+spx_run: Lost feasibility 10 times - iter     363416 and     81449 nodes.
+spx_run: Lost feasibility 10 times - iter     363478 and     81463 nodes.
+spx_run: Lost feasibility 10 times - iter     367558 and     82317 nodes.
+spx_run: Lost feasibility 10 times - iter     367600 and     82324 nodes.
+spx_run: Lost feasibility 10 times - iter     367650 and     82334 nodes.
+spx_run: Lost feasibility 10 times - iter     368361 and     82474 nodes.
+spx_run: Lost feasibility 10 times - iter     368419 and     82483 nodes.
+spx_run: Lost feasibility 10 times - iter     369122 and     82617 nodes.
+spx_run: Lost feasibility 10 times - iter     369179 and     82626 nodes.
+spx_run: Lost feasibility 10 times - iter     369262 and     82638 nodes.
+spx_run: Lost feasibility 10 times - iter     369904 and     82770 nodes.
+spx_run: Lost feasibility 10 times - iter     369967 and     82779 nodes.
+spx_run: Lost feasibility 10 times - iter     459596 and    102424 nodes.
+spx_run: Lost feasibility 10 times - iter     459658 and    102445 nodes.
+spx_run: Lost feasibility 10 times - iter     464637 and    103781 nodes.
+spx_run: Lost feasibility 10 times - iter     522048 and    116068 nodes.
+spx_run: Lost feasibility 10 times - iter     522288 and    116102 nodes.
+spx_run: Lost feasibility 10 times - iter     523859 and    116322 nodes.
+spx_run: Lost feasibility 10 times - iter     524010 and    116342 nodes.
+spx_run: Lost feasibility 10 times - iter     524147 and    116366 nodes.
+spx_run: Lost feasibility 10 times - iter     541213 and    120512 nodes.
+spx_run: Lost feasibility 10 times - iter     541247 and    120527 nodes.
+spx_run: Lost feasibility 10 times - iter     546846 and    122143 nodes.
+spx_run: Lost feasibility 10 times - iter     550963 and    122970 nodes.
+spx_run: Lost feasibility 10 times - iter     552071 and    123174 nodes.
+spx_run: Lost feasibility 10 times - iter     553164 and    123510 nodes.
+spx_run: Lost feasibility 10 times - iter     556787 and    124342 nodes.
+spx_run: Lost feasibility 10 times - iter     559438 and    125014 nodes.
+spx_run: Lost feasibility 10 times - iter     559466 and    125027 nodes.
+spx_run: Lost feasibility 10 times - iter     630147 and    140177 nodes.
+spx_run: Lost feasibility 10 times - iter     744073 and    165290 nodes.
+spx_run: Lost feasibility 10 times - iter     744078 and    165291 nodes.
+spx_run: Lost feasibility 10 times - iter     744352 and    165339 nodes.
+spx_run: Lost feasibility 10 times - iter     744355 and    165340 nodes.
+spx_run: Lost feasibility 10 times - iter     744373 and    165342 nodes.
+spx_run: Lost feasibility 10 times - iter     744376 and    165343 nodes.
+spx_run: Lost feasibility 10 times - iter     831793 and    181900 nodes.
+spx_run: Lost feasibility 10 times - iter     847597 and    184963 nodes.
+spx_run: Lost feasibility 10 times - iter     847616 and    184964 nodes.
+spx_run: Lost feasibility 10 times - iter     849931 and    185367 nodes.
+spx_run: Lost feasibility 10 times - iter     854213 and    186441 nodes.
+spx_run: Lost feasibility 10 times - iter     864573 and    188726 nodes.
+spx_run: Lost feasibility 10 times - iter     893577 and    194684 nodes.
+spx_run: Lost feasibility 10 times - iter     895730 and    195047 nodes.
+spx_run: Lost feasibility 10 times - iter     897436 and    195375 nodes.
+spx_run: Lost feasibility 10 times - iter     899343 and    195720 nodes.
+spx_run: Lost feasibility 10 times - iter     899425 and    195731 nodes.
+spx_run: Lost feasibility 10 times - iter     899915 and    195788 nodes.
+spx_run: Lost feasibility 10 times - iter     906546 and    197028 nodes.
+spx_run: Lost feasibility 10 times - iter     906772 and    197057 nodes.
+spx_run: Lost feasibility 10 times - iter     908936 and    197433 nodes.
+spx_run: Lost feasibility 10 times - iter     908982 and    197440 nodes.
+spx_run: Lost feasibility 10 times - iter     910803 and    197816 nodes.
+spx_run: Lost feasibility 10 times - iter     911699 and    197967 nodes.
+spx_run: Lost feasibility 10 times - iter     912379 and    198085 nodes.
+spx_run: Lost feasibility 10 times - iter     913250 and    198232 nodes.
+spx_run: Lost feasibility 10 times - iter     918774 and    199213 nodes.
+spx_run: Lost feasibility 10 times - iter     921110 and    199626 nodes.
+spx_run: Lost feasibility 10 times - iter     925399 and    200550 nodes.
+spx_run: Lost feasibility 10 times - iter     925426 and    200557 nodes.
+spx_run: Lost feasibility 10 times - iter     925480 and    200567 nodes.
+spx_run: Lost feasibility 10 times - iter     925502 and    200574 nodes.
+spx_run: Lost feasibility 10 times - iter     929139 and    201336 nodes.
+spx_run: Lost feasibility 10 times - iter     929192 and    201343 nodes.
+spx_run: Lost feasibility 10 times - iter     931249 and    201730 nodes.
+spx_run: Lost feasibility 10 times - iter     931908 and    201850 nodes.
+spx_run: Lost feasibility 10 times - iter     932779 and    202013 nodes.
+spx_run: Lost feasibility 10 times - iter     933593 and    202174 nodes.
+spx_run: Lost feasibility 10 times - iter     934448 and    202327 nodes.
+spx_run: Lost feasibility 10 times - iter     944439 and    204450 nodes.
+spx_run: Lost feasibility 10 times - iter     944542 and    204477 nodes.
+spx_run: Lost feasibility 10 times - iter    1026189 and    221583 nodes.
+spx_run: Lost feasibility 10 times - iter    1026788 and    221672 nodes.
+spx_run: Lost feasibility 10 times - iter    1033724 and    222920 nodes.
+spx_run: Lost feasibility 10 times - iter    1035600 and    223219 nodes.
+spx_run: Lost feasibility 10 times - iter    1036417 and    223346 nodes.
+Suboptimal solution
+
+Value of objective function: -41.00000000
+\lp_solve\miplib3\nw04.lp 
+Unrecognized MPS line 2: /* Objective function */
+
+\lp_solve\miplib3\p0033.mps 
+
+Value of objective function: 3089.00000000
+\lp_solve\miplib3\p0201.mps 
+
+Value of objective function: 7615.00000000
+\lp_solve\miplib3\p0282.mps 
+Suboptimal solution
+
+Value of objective function: 386619.00000000
+\lp_solve\miplib3\p0548.mps 
+Suboptimal solution
+
+Value of objective function: 10700.00000000
+\lp_solve\miplib3\p2756.mps 
+Suboptimal solution
+
+Value of objective function: 22016.00000000
+\lp_solve\miplib3\pe.cfg 
+Unrecognized MPS line 1: MD:\LP_SOLVE\miplib3\test.bat
+\lp_solve\miplib3\pk1.mps 
+Suboptimal solution
+
+Value of objective function: 16.00000000
+\lp_solve\miplib3\pp08a.mps 
+Suboptimal solution
+
+Value of objective function: 9130.00000000
+\lp_solve\miplib3\pp08aCUTS.mps 
+Suboptimal solution
+
+Value of objective function: 9120.00000000
+\lp_solve\miplib3\qiu.mps 
+Suboptimal solution
+
+Value of objective function: 292.41933099
+\lp_solve\miplib3\qnet1.mps 
+Suboptimal solution
+
+Value of objective function: 251891.49764209
+\lp_solve\miplib3\qnet1_o.mps 
+Suboptimal solution
+
+Value of objective function: 277478.35887010
+\lp_solve\miplib3\references 
+Unrecognized MPS line 2: The following is a list of certain miplib problems and various papers that
+
+\lp_solve\miplib3\rentacar.mps 
+spx_run: Lost feasibility 10 times - iter      11205 and       168 nodes.
+
+Value of objective function: 30356760.98414869
+\lp_solve\miplib3\result4'.txt 
+Unrecognized MPS line 3: 10TEAMS.MPS -s1 -si:
+
+\lp_solve\miplib3\rgn.mps 
+
+Value of objective function: 82.19999924
+\lp_solve\miplib3\rout.mps 
+Timeout
+\lp_solve\miplib3\set1ch.mps 
+Suboptimal solution
+
+Value of objective function: 69787.75000000
+\lp_solve\miplib3\seymour.mps 
+spx_run: Lost feasibility 10 times - iter      34397 and       166 nodes.
+Suboptimal solution
+
+Value of objective function: 469.00000000
+\lp_solve\miplib3\stein27.mps 
+
+Value of objective function: 18.00000000
+\lp_solve\miplib3\stein45.mps 
+
+Value of objective function: 30.00000000
+\lp_solve\miplib3\test.bat 
+Unrecognized MPS line 1: @echo off
+
+\lp_solve\miplib3\test0.bat 
+Unrecognized MPS line 1: @echo off
+
+\lp_solve\miplib3\test1.bat 
+Unrecognized MPS line 1: @echo off
+
+\lp_solve\miplib3\test3.bat 
+Unrecognized MPS line 1: @echo off
+
+\lp_solve\miplib3\test4'.bat 
+Unrecognized MPS line 1: @echo off
+
+\lp_solve\miplib3\test4.bat 
+Unrecognized MPS line 1: @echo off
+
+\lp_solve\miplib3\vpm1.mps 
+Suboptimal solution
+
+Value of objective function: 21.00000000
+\lp_solve\miplib3\vpm2.mps 
+Suboptimal solution
+
+Value of objective function: 16.50000000

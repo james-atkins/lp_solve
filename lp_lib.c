@@ -448,6 +448,9 @@ int __WINAPI solve(lprec *lp)
   catchFPU(_EM_INVALID | _EM_ZERODIVIDE | _EM_OVERFLOW | _EM_UNDERFLOW);
 #endif
 
+
+//write_lp(lp, "c:\\temp\\lpsolve.lp");
+
   if(has_BFP(lp)) {
     lp->solvecount++;
     if(is_add_rowmode(lp))
@@ -1348,6 +1351,7 @@ char * __WINAPI get_statustext(lprec *lp, int statuscode)
   else if (statuscode == USERABORT)    return("User-requested termination");
   else if (statuscode == TIMEOUT)      return("Termination due to timeout");
   else if (statuscode == PRESOLVED)    return("Model solved by presolve");
+  else if (statuscode == ACCURACYERROR) return("Accuracy errors detected");
   else if (statuscode == PROCFAIL)     return("B&B routine failed");
   else if (statuscode == PROCBREAK)    return("B&B routine terminated");
   else if (statuscode == FEASFOUND)    return("Feasible B&B solution found");
@@ -2724,11 +2728,11 @@ STATIC MYBOOL inc_rowcol_space(lprec *lp, int delta, MYBOOL isrows)
      !allocREAL(lp, &lp->orig_upbo, rowcolsum, AUTOMATIC) ||
      !allocREAL(lp, &lp->lowbo, rowcolsum, AUTOMATIC) ||
      !allocREAL(lp, &lp->orig_lowbo, rowcolsum, AUTOMATIC) ||
-     !allocREAL(lp, &lp->solution, rowcolsum, AUTOMATIC) ||
-     !allocREAL(lp, &lp->best_solution, rowcolsum, AUTOMATIC) ||
-     !allocMYBOOL(lp, &lp->is_basic, rowcolsum, AUTOMATIC) ||
-     !allocMYBOOL(lp, &lp->is_lower, rowcolsum, AUTOMATIC) ||
-     ((lp->scalars != NULL) && !allocREAL(lp, &lp->scalars, rowcolsum, AUTOMATIC)))
+     !allocREAL(lp, &lp->solution, rowcolsum, AUTOMATIC | TRUE) ||
+     !allocREAL(lp, &lp->best_solution, rowcolsum, AUTOMATIC | TRUE) ||
+     !allocMYBOOL(lp, &lp->is_basic, rowcolsum, AUTOMATIC | TRUE) ||
+     !allocMYBOOL(lp, &lp->is_lower, rowcolsum, AUTOMATIC | TRUE) ||
+     ((lp->scalars != NULL) && !allocREAL(lp, &lp->scalars, rowcolsum, AUTOMATIC | TRUE)))
     return( FALSE );
 
   /* Fill in default values, where appropriate */
@@ -9077,7 +9081,10 @@ STATIC int check_solution(lprec *lp, int  lastcolumn, REAL *solution,
       test += fabs(upbo[i]);
     }
     value = solution[i];
-    test = unscaled_value(lp, test, i);
+    if (fabs(test) < lp->epsvalue)
+        value = scaled_value(lp, value, i);
+    else
+        test = unscaled_value(lp, test, i);
 #ifndef LegacySlackDefinition
     value += test;
 #endif
@@ -9131,7 +9138,10 @@ STATIC int check_solution(lprec *lp, int  lastcolumn, REAL *solution,
       value = fabs(upbo[i]) - value;
 #endif
     }
-    test = unscaled_value(lp, test, i);
+    if (fabs(test) < lp->epsvalue)
+        value = scaled_value(lp, value, i);
+    else
+        test = unscaled_value(lp, test, i);
 #ifndef LegacySlackDefinition
     value += test;
 #endif
@@ -9551,7 +9561,7 @@ Abandon:
             from = OrigObj[i]-min1;
           if (min2<infinite)
             till = OrigObj[i]+min2;
-          a = lp->solution[varnr];
+          a = scaled_value(lp, lp->solution[varnr], varnr);
           if (is_maxim(lp)) {
             if (a - lp->lowbo[varnr] < epsvalue)
               from = -infinite; /* if variable is at lower bound then decrementing objective coefficient will not result in extra iterations because it would only extra decrease the value, but since it is at its lower bound ... */

@@ -1191,7 +1191,7 @@ STATIC MYBOOL findnode_BB(BBrec *BB, int *varno, int *vartype, int *varcus)
         }
 
         if(lp->bb_trace ||
-           ((lp->verbose >= NORMAL) && (lp->print_sol == FALSE) && (lp->lag_status != RUNNING))) {
+           ((lp->verbose >= NORMAL) && ((lp->print_sol & 1) == FALSE) && (lp->lag_status != RUNNING))) {
           report(lp, IMPORTANT,
                  "%s solution " RESULTVALUEMASK " after %10.0f iter, %9.0f nodes (gap %.1f%%)\n",
                  (lp->bb_improvements == 0) ? "Feasible" : "Improved",
@@ -1247,7 +1247,7 @@ STATIC MYBOOL findnode_BB(BBrec *BB, int *varno, int *vartype, int *varcus)
     if((reasonmsg != MSG_NONE) && (lp->msgmask & reasonmsg) && (lp->usermessage != NULL))
       lp->usermessage(lp, lp->msghandle, reasonmsg);
 
-    if(lp->print_sol != FALSE) {
+    if((lp->print_sol & 1) != FALSE) {
       print_objective(lp);
       print_solution(lp, 1);
     }
@@ -1382,7 +1382,7 @@ STATIC MYBOOL post_BB(lprec *lp)
 /* This is the non-recursive B&B driver routine - beautifully simple, yet so subtle! */
 STATIC int run_BB(lprec *lp)
 {
-  BBrec *currentBB;
+  BBrec *currentBB, *currentBB0;
   int   varno, vartype, varcus, prevsolutions;
   int   status = NOTRUN;
 
@@ -1414,12 +1414,30 @@ STATIC int run_BB(lprec *lp)
     }
 #endif
 
+#define NewBB
+
+    currentBB0 = currentBB;
     if((status == OPTIMAL) && findnode_BB(currentBB, &varno, &vartype, &varcus))
+    {
       currentBB = push_BB(lp, currentBB, varno, vartype, varcus);
+#if defined NewBB
+      if (currentBB == currentBB0)
+      {
+        if(status == OPTIMAL)
+          status = INFEASIBLE;
+        if(lp->spx_status == OPTIMAL)
+          lp->spx_status = INFEASIBLE;
+      }
+#endif
+    }
 
-    else while((lp->bb_level > 0) && !nextbranch_BB(currentBB))
-      currentBB = pop_BB(currentBB);
-
+#if defined NewBB
+    if (currentBB == currentBB0)
+#else
+    else
+#endif
+      while((lp->bb_level > 0) && !nextbranch_BB(currentBB))
+        currentBB = pop_BB(currentBB);
   }
 
   /* Finalize */

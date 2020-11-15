@@ -1,0 +1,1175 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<HEAD>
+		<TITLE>lpsolve distributed files</TITLE>
+		<style TYPE="text/css"> BODY { font-family:verdana,arial,helvetica; margin:0; }
+	</style>
+	</HEAD>
+	<BODY>
+<script type="text/javascript" language="Javascript">
+<!--
+{
+  var strHref = window.location.href;
+  var i = strHref.indexOf("/distribution_");
+  if (i >= 0)
+  {
+        strHref = strHref.substr(i + 14);
+        i = strHref.indexOf(".");
+        if (i >= 0)
+        {
+                i = strHref.indexOf(".", i + 1);
+                if (i >= 0)
+                {
+                        strHref = "http://lpsolve.sourceforge.net/" + strHref.substr(0, i) + "/";
+                }
+        }
+  }
+  if (i < 0)
+  {
+        strHref = "";
+  }
+}
+
+function WriteLink(link, name)
+{
+    link = "'" + (((link.substr(0, 7) != "http://") && (link.substr(0, 4) != "www.")) ? strHref : "") + link + "'"
+    if (strHref.length > 0)
+    {
+         link = link + " target='blank'";
+    }
+    document.write("<a href=" + link + ">" + name + "</a>");
+}
+
+//-->
+</script>
+
+		<TABLE STYLE="TABLE-LAYOUT:fixed" class="clsContainer" CELLPADDING="15" CELLSPACING="0"
+			WIDTH="100%" BORDER="0" ID="Table1">
+			<TR>
+				<TD VALIGN="top">
+					<h1 align="left"><u>lpsolve distributed files</u></h1>
+					<p>lpsolve is distributed as several separate archive files. It is most unlikely that you need
+					   them all for your purpose. This text describes each archive's contents.
+					</p>
+					<p>There are two kind of archive files:</p>
+					<ul>
+					    <li>ziped files (.zip)</li>
+						<li>gziped tar files (.tar.gz)</li>
+					</ul>
+
+					<p>Ziped files are basically binaries (executables/libraries) for the Windows platform.</p>
+
+					<p>gziped tar files can be divided into two categories:</p>
+					<ul>
+					    <li>binaries (executables, libraries) for the Linux/Mac OSX platform.</li>
+						<li>source files that are operating system independent.</li>
+					</ul>
+
+					<h3><u>lpsolve library</u></h3>
+					<p>Most of the links from lpsolve to other software need the lpsolve library lpsolve55.dll (Windows)
+					or lpsolve55.so (Unix/Linux/Mac). This library is in general not included in the archives.
+					It must be installed separately. It is contained in archive lp_solve_5.5.2.5_dev_win*.zip (Windows)
+					/ lp_solve_5.5.2.5_dev_ux*.tar.gz (Linux) / lp_solve_5.5.2.5_dev_osx*.tar.gz<br />
+					This library must be put in a path known by the system. That is:</p>
+
+					<p>Under Windows, the following search order is used:</p>
+					<ol>
+						<li>Current directory.</li>
+						<li>A semi-colon-separated (;) list of directories in the user's PATH environment variable.
+						    windows\system32 is a common folder that is normally defined in this environment variable.
+						    This folder is a good place to put the dll.</li>
+					</ol>
+					<p>Under Unix/Linux, following search order is used:</p>
+					<ol>
+						<li>A colon-separated (:) list of directories in the user's LD_LIBRARY_PATH environment variable.</li>
+						<li>The list of libraries specified in /etc/ld.so.cache (which is generated from /etc/ld.so.conf).</li>
+						<li>/lib, followed by /usr/lib. Note the order here; this is the reverse of the order used by the old a.out loader.
+						The old a.out loader, when loading a  program, first searched /usr/lib, then /lib (see the man page ld.so(8)).
+						This shouldn't normally matter, since a library should only be in one or the other directory (never both),
+						and different libraries with the same name are a disaster waiting to happen.</li>
+					</ol>
+
+					<h3><u>List of archives</u></h3>
+					<TABLE id="Table2" cellSpacing="1" cellPadding="1" width="100%" border="1">
+						<tr bgcolor=Silver>
+							<th>Archive</th>
+							<th>Contents</th>
+							<th>See also</th>
+						</tr>
+						<tr bgcolor=Gray>
+							<th colSpan=3>Executables</TH>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_IDE_Setup.exe</TD>
+							<TD>LPSolve IDE (Integrated Development Interface) for Windows.<br>
+							    A user-friendly interface to lpsolve to formulate your model. At this moment only available for Windows.</TD>
+							<td>
+<script>
+<!--
+WriteLink("IDE.htm", "LPSolve IDE");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_exe_win32.zip</TD>
+							<TD>32 bit lp_solve stand-alone program and bfp/xli libraries for Windows.</TD>
+							<td>
+<script>
+<!--
+WriteLink("lp_solve.htm", "lp_solve command");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("BFP.htm", "Basis Factorization Packages");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("XLI.htm", "External Language Interfaces");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_exe_win64.zip</TD>
+							<TD>64 bit lp_solve stand-alone program and bfp/xli libraries for Windows.</TD>
+							<td>
+<script>
+<!--
+WriteLink("lp_solve.htm", "lp_solve command");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("BFP.htm", "Basis Factorization Packages");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("XLI.htm", "External Language Interfaces");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_exe_ux32.tar.gz</TD>
+							<TD>32 bit lp_solve stand-alone program and bfp/xli libraries for ubuntu linux.</TD>
+							<td>
+<script>
+<!--
+WriteLink("lp_solve.htm", "lp_solve command");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("BFP.htm", "Basis Factorization Packages");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("XLI.htm", "External Language Interfaces");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_exe_ux64.tar.gz</TD>
+							<TD>64 bit lp_solve stand-alone program and bfp/xli libraries for ubuntu linux.</TD>
+							<td>
+<script>
+<!--
+WriteLink("lp_solve.htm", "lp_solve command");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("BFP.htm", "Basis Factorization Packages");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("XLI.htm", "External Language Interfaces");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_exe_osx32.tar.gz</TD>
+							<TD>32 bit lp_solve stand-alone program and bfp/xli libraries for Mac OSX (Intel).</TD>
+							<td>
+<script>
+<!--
+WriteLink("lp_solve.htm", "lp_solve command");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("BFP.htm", "Basis Factorization Packages");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("XLI.htm", "External Language Interfaces");
+//-->
+</script>
+</td>
+						</TR>
+						<tr bgcolor=Gray>
+							<th colSpan=3>Libraries</TH>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_dev_win32.zip</TD>
+							<TD>32 bit lpsolve libraries for Windows.<br>
+							    The libraries are needed by many of the examples and when you statically or dynamically link the lpsolve library with your application.</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_dev_win64.zip</TD>
+							<TD>64 bit lpsolve libraries for Windows.<br>
+							    The libraries are needed by many of the examples and when you statically or dynamically link the lpsolve library with your application.</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_dev_ux32.tar.gz</TD>
+							<TD>32 bit lpsolve libraries for ubuntu linux.<br>
+							    The libraries are needed by many of the examples and when you statically or dynamically link the lpsolve library with your application.</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_dev_ux64.tar.gz</TD>
+							<TD>64 bit lpsolve libraries for ubuntu linux.<br>
+							    The libraries are needed by many of the examples and when you statically or dynamically link the lpsolve library with your application.</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_dev_osx32.tar.gz</TD>
+							<TD>32 bit lpsolve libraries for Mac OSX (Intel based).<br>
+							    The libraries are needed by many of the examples and when you statically or dynamically link the lpsolve library with your application.</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+						<tr bgcolor=Gray>
+							<th colSpan=3>Documentation</TH>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_doc.tar.gz</TD>
+							<TD>lp_solve reference guide in HTML format.<br>
+							    For use under Unix/Linux. Can also be used under Windows, however lp_solve_5.5.2.5.chm is handier under that platform.</TD>
+							<td><a href='http://lpsolve.sourceforge.net/5.5/' target='blank'>http://lpsolve.sourceforge.net/5.5/</a></td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5.chm</TD>
+							<TD>lp_solve reference guide in HTML HELP (Windows) format</TD>
+                                                        <td><a href='http://lpsolve.sourceforge.net/5.5/' target='blank'>http://lpsolve.sourceforge.net/5.5/</a></td>
+						</TR>
+						<tr bgcolor=Gray>
+							<th colSpan=3>Sources</TH>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_source.tar.gz</TD>
+							<TD>lp_solve library & stand-alone program source for all platforms.</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("lp_solve.htm", "lp_solve command");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_IDE_source.zip</TD>
+							<TD>LPSolve IDE (Integrated Development Interface) sources.<br></TD>
+							<td>
+<script>
+<!--
+WriteLink("IDE.htm", "LPSolve IDE");
+//-->
+</script>
+</td>
+						</TR>
+						<tr bgcolor=Gray>
+							<th colSpan=3>BFP packages</TH>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_bfp_etaPFI_source.tar.gz</TD>
+							<TD>etaPFI BFP source.<br>
+							    Can be compiled under Windows or Linux to generate the etaPFI 2.0 bfp</TD>
+							<td>
+<script>
+<!--
+WriteLink("BFP.htm", "Basis Factorization Packages");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_bfp_GLPK_source.tar.gz</TD>
+							<TD>GLPK BFP source.<br>
+							    Can be compiled under Windows or Linux to generate the GLPK bfp.</TD>
+							<td>
+<script>
+<!--
+WriteLink("BFP.htm", "Basis Factorization Packages");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_bfp_LUSOL_source.tar.gz</TD>
+							<TD>LUSOL BFP source.<br>
+							    Can be compiled under Windows or Linux to generate the LUSOL bfp.</TD>
+							<td>
+<script>
+<!--
+WriteLink("BFP.htm", "Basis Factorization Packages");
+//-->
+</script>
+</td>
+						</TR>
+						<tr bgcolor=Gray>
+							<th colSpan=3>XLI packages</TH>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_xli_CPLEX_source.tar.gz</TD>
+							<TD>CPLEX XLI reader/writer source.<br>
+							    Can be compiled under Windows or Linux to generate the CPLEX xli interface.</TD>
+							<td>
+<script>
+<!--
+WriteLink("XLI.htm", "External Language Interfaces");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("CPLEX-format.htm", "CPLEX lp files");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_xli_Xpress_source.tar.gz</TD>
+							<TD>Xpress XLI reader/writer source.<br>
+							    Can be compiled under Windows or Linux to generate the Xpress xli interface.</TD>
+							<td>
+<script>
+<!--
+WriteLink("XLI.htm", "External Language Interfaces");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("Xpress-format.htm", "Xpress lp files");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_xli_LINDO_source.tar.gz</TD>
+							<TD>LINDO XLI reader/writer source.<br>
+							    Can be compiled under Windows or Linux to generate the LINDO xli interface.</TD>
+							<td>
+<script>
+<!--
+WriteLink("XLI.htm", "External Language Interfaces");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_xli_LPFML_source.tar.gz</TD>
+							<TD>LPFML (XML) XLI reader/writer source.<br>
+							    Can be compiled under Windows to generate the XML xli interface.</TD>
+							<td>
+<script>
+<!--
+WriteLink("XLI.htm", "External Language Interfaces");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_xli_MathProg_source.tar.gz</TD>
+							<TD>MathProg XLI reader source.<br>
+							    Can be compiled under Windows or Linux to generate the MathProg xli interface. Note that you also need GLPK source to do this.</TD>
+							<td>
+<script>
+<!--
+WriteLink("XLI.htm", "External Language Interfaces");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_xli_DIMACS_source.tar.gz</TD>
+							<TD>DIMACS XLI reader/writer source.<br>
+							    Can be compiled under Windows or Linux to generate the DIMACS xli interface.</TD>
+							<td>
+<script>
+<!--
+WriteLink("XLI.htm", "External Language Interfaces");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("DIMACS_mcf.htm", "DIMACS minimum cost flow problems");
+//-->
+</script>
+<br>
+
+<script>
+<!--
+WriteLink("DIMACS_maxf.htm", "DIMACS maximum flow problems");
+//-->
+</script>
+
+
+<script>
+<!--
+WriteLink("DIMACS_asn.htm", "DIMACS assignment problems");
+//-->
+</script>
+</td>
+						</TR>
+						<tr bgcolor=Gray>
+							<th colSpan=3>Call lpsolve from another programming language or environment</TH>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_AMPL_exe_win32.zip</TD>
+							<TD>32 bit AMPL lpsolve executable driver for Windows</TD>
+							<td>
+<script>
+<!--
+WriteLink("AMPL.htm", "Using lpsolve from AMPL");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_AMPL_exe_ux32.tar.gz</TD>
+							<TD>32 bit AMPL lpsolve executable driver for ubuntu linux</TD>
+							<td>
+<script>
+<!--
+WriteLink("AMPL.htm", "Using lpsolve from AMPL");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_AMPL_exe_osx32.tar.gz</TD>
+							<TD>32 bit AMPL lpsolve executable driver for Mac OSX (Intel)</TD>
+							<td>
+<script>
+<!--
+WriteLink("AMPL.htm", "Using lpsolve from AMPL");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_AMPL_source.tar.gz</TD>
+							<TD>AMPL lpsolve driver source</TD>
+							<td>
+<script>
+<!--
+WriteLink("AMPL.htm", "Using lpsolve from AMPL");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_c.tar.gz</TD>
+							<TD>example calling lp_solve API from C.<br>
+							    A starting point if you want to use the lpsolve API from C.</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_COM.zip</TD>
+							<TD>lpsolve COM object (COM interface to lpsolve55 dll) + VB example<br>
+							    A COM interface to the lpsolve API</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_Delphi.zip</TD>
+							<TD>example calling lp_solve API from Delphi.<br>
+							    A starting point if you want to use the lpsolve API from Delphi/Pascal.</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_access.zip</TD>
+							<TD>example calling lp_solve API from Access.<br>
+							    A starting point if you want to use the lpsolve API from Access.</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_excel.zip</TD>
+							<TD>example calling lp_solve API from EXCEL.<br>
+							    A starting point if you want to use the lpsolve API from EXCEL.</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_java.zip</TD>
+							<TD>java wrapper for lpsolve, java documentation and examples</TD>
+                                                        <td>
+<script>
+<!--
+WriteLink("Java.htm", "Using lpsolve from Java");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_MATLAB_exe_win32.zip</TD>
+							<TD>32 bit MATLAB driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("MATLAB.htm", "Using lpsolve from MATLAB");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_MATLAB_exe_win64.zip</TD>
+							<TD>64 bit MATLAB driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("MATLAB.htm", "Using lpsolve from MATLAB");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_MATLAB_exe_ux32.tar.gz</TD>
+							<TD>32 bit MATLAB driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("MATLAB.htm", "Using lpsolve from MATLAB");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_MATLAB_exe_ux64.tar.gz</TD>
+							<TD>64 bit MATLAB driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("MATLAB.htm", "Using lpsolve from MATLAB");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_MATLAB_exe_osx32.tar.gz</TD>
+							<TD>32 bit MATLAB driver to lpsolve for Mac OSX (Intel) and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("MATLAB.htm", "Using lpsolve from MATLAB");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_MATLAB_source.tar.gz</TD>
+							<TD>MATLAB driver source to lpsolve with examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("MATLAB.htm", "Using lpsolve from MATLAB");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_OMATRIX_exe_win32.zip</TD>
+							<TD>32 bit O-MATRIX driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("O-Matrix.htm", "Using lpsolve from O-Matrix");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_OMATRIX_source.tar.gz</TD>
+							<TD>O-MATRIX driver source to lpsolve with examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("O-Matrix.htm", "Using lpsolve from O-Matrix");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_Sysquake_exe_win32.zip</TD>
+							<TD>32 bit Sysquake driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Sysquake.htm", "Using lpsolve from Sysquake");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_Sysquake_exe_ux32.tar.gz</TD>
+							<TD>32 bit Sysquake driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Sysquake.htm", "Using lpsolve from Sysquake");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_Sysquake_exe_osx32.tar.gz</TD>
+							<TD>32 bit Sysquake driver to lpsolve for Mac OSX (Intel) and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Sysquake.htm", "Using lpsolve from Sysquake");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_Sysquake_source.tar.gz</TD>
+							<TD>Sysquake driver source to lpsolve with examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Sysquake.htm", "Using lpsolve from Sysquake");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_scilab_exe_win32.zip</TD>
+							<TD>32 bit Scilab driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Scilab.htm", "Using lpsolve from scilab");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_scilab_exe_win64.zip</TD>
+							<TD>64 bit Scilab driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Scilab.htm", "Using lpsolve from scilab");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_scilab_exe_ux32.tar.gz</TD>
+							<TD>32 bit Scilab driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Scilab.htm", "Using lpsolve from scilab");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_scilab_exe_ux64.tar.gz</TD>
+							<TD>64 bit Scilab driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Scilab.htm", "Using lpsolve from scilab");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_scilab_exe_osx32.tar.gz</TD>
+							<TD>32 bit Scilab driver to lpsolve for Mac OSX (Intel) and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Scilab.htm", "Using lpsolve from scilab");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_scilab_source.tar.gz</TD>
+							<TD>Scilab driver source to lpsolve with examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Scilab.htm", "Using lpsolve from Scilab");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_octave_exe_win32.zip</TD>
+							<TD>32 bit octave driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Octave.htm", "Using lpsolve from octave");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_octave_exe_ux32.tar.gz</TD>
+							<TD>32 bit octave driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Octave.htm", "Using lpsolve from octave");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_octave_exe_ux64.tar.gz</TD>
+							<TD>64 bit octave driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Octave.htm", "Using lpsolve from octave");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_octave_exe_osx32.tar.gz</TD>
+							<TD>32 bit octave driver to lpsolve for Mac OSX (Intel) and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Octave.htm", "Using lpsolve from octave");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_octave_source.tar.gz</TD>
+							<TD>octave driver source to lpsolve with examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Octave.htm", "Using lpsolve from Octave");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_FreeMat_exe_win32.zip</TD>
+							<TD>32 bit FreeMat driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("FreeMat.htm", "Using lpsolve from FreeMat");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_FreeMat_exe_ux32.tar.gz</TD>
+							<TD>32 bit FreeMat driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("FreeMat.htm", "Using lpsolve from FreeMat");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_FreeMat_exe_ux64.tar.gz</TD>
+							<TD>64 bit FreeMat driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("FreeMat.htm", "Using lpsolve from FreeMat");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_FreeMat_exe_osx32.tar.gz</TD>
+							<TD>32 bit FreeMat driver to lpsolve for Mac OSX (Intel) and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("FreeMat.htm", "Using lpsolve from FreeMat");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_FreeMat_source.tar.gz</TD>
+							<TD>FreeMat driver source to lpsolve with examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("FreeMat.htm", "Using lpsolve from FreeMat");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_Euler_exe_win32.zip</TD>
+							<TD>Euler driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Euler.htm", "Using lpsolve from Euler");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_Euler_source.tar.gz</TD>
+							<TD>Euler driver source to lpsolve with examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Euler.htm", "Using lpsolve from Euler");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_Python2.4_exe_win32.zip</TD>
+							<TD>32 bit Python 2.4 driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Python.htm", "Using lpsolve from Python");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_Python2.5_exe_win32.zip</TD>
+							<TD>32 bit Python 2.5 driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Python.htm", "Using lpsolve from Python");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_Python2.6_exe_win32.zip</TD>
+							<TD>32 bit Python 2.6 driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Python.htm", "Using lpsolve from Python");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_Python2.6_exe_win64.zip</TD>
+							<TD>64 bit Python 2.6 driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Python.htm", "Using lpsolve from Python");
+//-->
+</script>
+</td>
+						</TR>
+
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_Python2.5_exe_ux32.tar.gz</TD>
+							<TD>32 bit Python 2.5 driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Python.htm", "Using lpsolve from Python");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_Python2.5_exe_ux64.tar.gz</TD>
+							<TD>64 bit Python 2.5 driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Python.htm", "Using lpsolve from Python");
+//-->
+</script>
+</td>
+						</TR>
+
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_Python2.3_exe_osx32.tar.gz</TD>
+							<TD>32 bit Python 2.5 driver to lpsolve for Mac OSX (Intel) and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Python.htm", "Using lpsolve from Python");
+//-->
+</script>
+</td>
+						</TR>
+
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_Python_source.tar.gz</TD>
+							<TD>Python driver source to lpsolve with examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("Python.htm", "Using lpsolve from Python");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_PHP_exe_win32.zip</TD>
+							<TD>32 bit PHP driver to lpsolve for Windows and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("PHP.htm", "Using lpsolve from PHP");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_PHP_exe_ux32.tar.gz</TD>
+							<TD>32 bit PHP driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("PHP.htm", "Using lpsolve from PHP");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_PHP_exe_ux64.tar.gz</TD>
+							<TD>64 bit PHP driver to lpsolve for ubuntu linux and examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("PHP.htm", "Using lpsolve from PHP");
+//-->
+</script>
+</td>
+						</TR>
+						<TR>
+							<TD>lp_solve_5.5.2.5_PHP_source.tar.gz</TD>
+							<TD>PHP driver source to lpsolve with examples</TD>
+							<td>
+<script>
+<!--
+WriteLink("PHP.htm", "Using lpsolve from PHP");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_MSF_exe_win32.zip</TD>
+							<TD>32 bit MSF driver to lpsolve for Windows</TD>
+							<td>
+<script>
+<!--
+WriteLink("MSF.htm", "Using lpsolve from MSF");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_MSF_source.zip</TD>
+							<TD>MSF driver source to lpsolve</TD>
+							<td>
+<script>
+<!--
+WriteLink("MSF.htm", "Using lpsolve from MSF");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_MSF_demo.zip</TD>
+							<TD>MSF demo to lpsolve</TD>
+							<td>
+<script>
+<!--
+WriteLink("MSF.htm", "Using lpsolve from MSF");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_cs.net.zip</TD>
+							<TD>example calling lp_solve API from C#.<br>
+							    A starting point if you want to use the lpsolve API from C# (.NET).</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_vb.net.zip</TD>
+							<TD>example calling lp_solve API from VB.NET.<br>
+							    A starting point if you want to use the lpsolve API from VB.NET).</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+
+						<TR>
+							<TD>lp_solve_5.5.2.5_vb.zip</TD>
+							<TD>example calling lp_solve API from VB6.<br>
+							    A starting point if you want to use the lpsolve API from VB6.</TD>
+							<td>
+<script>
+<!--
+WriteLink("Build.htm", "Calling the lpsolve API from your application");
+//-->
+</script>
+</td>
+						</TR>
+					</TABLE>
+				</TD>
+			</TR>
+		</TABLE>
+	</BODY>
+</html>

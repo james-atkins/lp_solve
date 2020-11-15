@@ -229,6 +229,7 @@ void print_help(char *argv[])
   printf("-Da <filename>\tDo a generic readable data dump of key lp_solve model variables\n\t\tafter solve.\n\t\tPrincipally for run difference and debugging purposes\n");
   printf("-i\t\tprint all intermediate valid solutions.\n\t\tCan give you useful solutions even if the total run time\n\t\tis too long\n");
   printf("-ia\t\tprint all intermediate (only non-zero values) valid solutions.\n\t\tCan give you useful solutions even if the total run time\n\t\tis too long\n");
+  printf("-ip\t\tprint solution with more precision\n");
   printf("-stat\t\tPrint model statistics\n");
   printf("-S <detail>\tPrint solution. If detail omitted, then -S2 is used.\n");
   printf("\t -S0: Print nothing\n");
@@ -239,6 +240,7 @@ void print_help(char *argv[])
   printf("\t -S5: Obj value+variables+constraints+duals+lp model\n");
   printf("\t -S6: Obj value+variables+constraints+duals+lp model+scales\n");
   printf("\t -S7: Obj value+variables+constraints+duals+lp model+scales+lp tableau\n");
+  printf("\t -Si: Also print solution if not feasible\n");
 }
 
 void print_cpu_times(const char *info)
@@ -542,6 +544,7 @@ int main(int argc, char *argv[])
   MYBOOL write_model_after = FALSE;
   MYBOOL noint = FALSE;
   int print_sol = -1;
+  MYBOOL print_solutions = FALSE;
   MYBOOL print_stats = FALSE;
   int floor_first = -1;
   MYBOOL do_set_bb_depthlimit = FALSE;
@@ -587,7 +590,7 @@ int main(int argc, char *argv[])
   REAL epsel = -1;
   MYBOOL do_set_break_at_value = FALSE;
   REAL break_at_value = 0;
-  REAL accuracy_error0, accuracy_error = -1;
+  REAL accuracy_error = -1;
   FILE *fpin = stdin;
   char *bfp = NULL;
   char *rxliname = NULL, *rxli = NULL, *rxlidata = NULL, *rxlioptions = NULL, *wxliname = NULL, *wxlisol = NULL, *wxli = NULL, *wxlioptions = NULL, *wxlisoloptions = NULL;
@@ -624,9 +627,27 @@ int main(int argc, char *argv[])
     else if(strcmp(argv[i], "-R") == 0)
       report = TRUE;
     else if(strcmp(argv[i], "-i") == 0)
-      print_sol = TRUE;
+    {
+      if (print_sol < 0)
+        print_sol = 0;
+      print_sol |= 1;
+    }
     else if(strcmp(argv[i], "-ia") == 0)
-      print_sol = AUTOMATIC;
+    {
+      if (print_sol < 0)
+        print_sol = 0;
+      print_sol |= AUTOMATIC;
+    }
+    else if(strcmp(argv[i], "-ip") == 0)
+    {
+      if (print_sol < 0)
+        print_sol = 0;
+      print_sol |= PRECISION;
+    }
+    else if(strcmp(argv[i], "-Si") == 0)
+    {
+        print_solutions = TRUE;
+    }
     else if(strcmp(argv[i], "-stat") == 0)
       print_stats = TRUE;
     else if(strcmp(argv[i], "-nonames") == 0)
@@ -1313,28 +1334,7 @@ int main(int argc, char *argv[])
   case OPTIMAL:
   case PROCBREAK:
   case FEASFOUND:
-    if ((result == SUBOPTIMAL) && (PRINT_SOLUTION >= 1))
-      printf("Suboptimal solution\n");
-
-    if (result == PRESOLVED)
-      printf("Presolved solution\n");
-
-    if (PRINT_SOLUTION >= 1)
-      print_objective(lp);
-
-    if (PRINT_SOLUTION >= 2)
-      print_solution(lp, 1);
-
-    if (PRINT_SOLUTION >= 3)
-      print_constraints(lp, 1);
-
-    if (PRINT_SOLUTION >= 4)
-      print_duals(lp);
-
-    if(tracing)
-      fprintf(stderr,
-              "Branch & Bound depth: %d\nNodes processed: %.0f\nSimplex pivots: %.0f\nNumber of equal solutions: %d\n",
-              get_max_level(lp), (REAL) get_total_nodes(lp), (REAL) get_total_iter(lp), get_solutioncount(lp));
+    print_solutions = TRUE;
     break;
   case NOMEMORY:
     if (PRINT_SOLUTION >= 1)
@@ -1368,6 +1368,31 @@ int main(int argc, char *argv[])
     if (PRINT_SOLUTION >= 1)
       printf("lp_solve failed\n");
     break;
+  }
+
+  if (print_solutions) {
+    if ((result == SUBOPTIMAL) && (PRINT_SOLUTION >= 1))
+      printf("Suboptimal solution\n");
+
+    if (result == PRESOLVED)
+      printf("Presolved solution\n");
+
+    if (PRINT_SOLUTION >= 1)
+      print_objective(lp);
+
+    if (PRINT_SOLUTION >= 2)
+      print_solution(lp, 1);
+
+    if (PRINT_SOLUTION >= 3)
+      print_constraints(lp, 1);
+
+    if (PRINT_SOLUTION >= 4)
+      print_duals(lp);
+
+    if(tracing)
+      fprintf(stderr,
+              "Branch & Bound depth: %d\nNodes processed: %.0f\nSimplex pivots: %.0f\nNumber of equal solutions: %d\n",
+              get_max_level(lp), (REAL) get_total_nodes(lp), (REAL) get_total_iter(lp), get_solutioncount(lp));
   }
 
   if (PRINT_SOLUTION >= 7)

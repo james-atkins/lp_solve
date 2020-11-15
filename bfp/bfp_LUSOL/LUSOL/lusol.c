@@ -53,10 +53,6 @@
   #include "mex.h"
 #endif
 
-#ifdef FORTIFY
-# include "lp_fortify.h"
-#endif
-
 /* LUSOL Object creation and destruction */
 
 void *clean_realloc(void *oldptr, int width, int newsize, int oldsize)
@@ -678,8 +674,7 @@ int LUSOL_ftran(LUSOLrec *LUSOL, REAL b[], int NZidx[], MYBOOL prepareupdate)
      can create a memory error when the calling program uses
      a 0-base vector offset back to comply with LUSOL. */
   MEMCOPY(vector+1, b+1, LUSOL->n);
-  if (vector != NULL)
-    vector[0] = 0;
+  vector[0] = 0;
 
   LU6SOL(LUSOL, LUSOL_SOLVE_Aw_v, vector, b, NZidx, &inform);
   LUSOL->luparm[LUSOL_IP_FTRANCOUNT]++;
@@ -696,8 +691,7 @@ int LUSOL_btran(LUSOLrec *LUSOL, REAL b[], int NZidx[])
      can create a memory error when the calling program uses
      a 0-base vector offset back to comply with LUSOL. */
   MEMCOPY(LUSOL->w+1, b+1, LUSOL->m);
-  if (LUSOL->w != NULL)
-    LUSOL->w[0] = 0;
+  LUSOL->w[0] = 0;
 
   LU6SOL(LUSOL, LUSOL_SOLVE_Atv_w, b, LUSOL->w, NZidx, &inform);
   LUSOL->luparm[LUSOL_IP_BTRANCOUNT]++;

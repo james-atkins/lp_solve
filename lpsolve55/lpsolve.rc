@@ -27,8 +27,8 @@ LANGUAGE LANG_DUTCH, SUBLANG_DUTCH_BELGIAN
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 5,5,2,5
- PRODUCTVERSION 5,5,2,5
+ FILEVERSION 5,5,2,9
+ PRODUCTVERSION 5,5,2,9
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -46,12 +46,12 @@ BEGIN
             VALUE "Comments", "Mixed Integer Lineair Program Solver"
             VALUE "CompanyName", "Free Software Foundation, Inc."
             VALUE "FileDescription", "lpsolve"
-            VALUE "FileVersion", "5, 5, 2, 5"
+            VALUE "FileVersion", "5, 5, 2, 9"
             VALUE "InternalName", "lpsolve"
-            VALUE "LegalCopyright", "Copyright © 1991, 2016 Free Software Foundation, Inc."
+            VALUE "LegalCopyright", "Copyright © 1991, 2020 Free Software Foundation, Inc."
             VALUE "OriginalFilename", "lpsolve55.dll"
             VALUE "ProductName", "lpsolve"
-            VALUE "ProductVersion", "5, 5, 2, 5"
+            VALUE "ProductVersion", "5, 5, 2, 9"
         END
     END
     BLOCK "VarFileInfo"

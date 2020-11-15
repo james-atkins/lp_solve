@@ -773,10 +773,12 @@ int store_bounds(parse_parm *pp, int warn)
     }
 
     /* check for empty range */
+    /*
     if((warn) && (pp->coldata[h_tab_p->index].upbo + tol < pp->coldata[h_tab_p->index].lowbo)) {
       error(pp, CRITICAL, "Error: bound contradicts earlier bounds");
       return(FALSE);
     }
+    */
   }
   else /* pp->tmp_store.value = 0 ! */ {
     char buf[256];
@@ -998,6 +1000,18 @@ static int readinput(parse_parm *pp, lprec *lp)
       }
 
       if(lp != NULL) {
+        if((!pp->coldata[hp->index].must_be_sec) && (pp->coldata[hp->index].upbo + tol < pp->coldata[hp->index].lowbo)) {
+          char buf[256];
+
+          FREE(SOSrowdata);
+          FREE(negateAndSOS);
+          FREE(row);
+          FREE(rowno);
+          sprintf(buf, "Error: variable %s: bound contradicts earlier bounds\n", hp->name);
+          error(NULL, CRITICAL, buf);
+          return(FALSE);
+        }
+
         add_columnex(lp, count, row, rowno);
         /* check for bound */
         if(pp->coldata[hp->index].lowbo == -DEF_INFINITE * 10.0)
