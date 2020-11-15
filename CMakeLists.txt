@@ -7,6 +7,8 @@ find_package(BLAS REQUIRED)
 
 check_function_exists(isnan HAVE_ISNAN)
 
+find_library(MATH_LIBRARY m)
+
 add_library(lpsolve55
     "${CMAKE_CURRENT_SOURCE_DIR}/lp_MDO.c"
     "${CMAKE_CURRENT_SOURCE_DIR}/shared/commonlib.c"
@@ -72,4 +74,13 @@ if(APPLE)
 endif()
 
 target_link_libraries(lpsolve55 PRIVATE ${BLAS_LIBRARIES} ${CMAKE_DL_LIBS})
+if(MATH_LIBRARY)
+    target_link_libraries(lpsolve55 PRIVATE ${MATH_LIBRARY})
+endif()
+
+add_executable(lp_solve
+    "${CMAKE_CURRENT_SOURCE_DIR}/lp_solve/lp_solve.c"
+)
+
+target_link_libraries(lp_solve lpsolve55)
 
